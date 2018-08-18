@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACP,MAAM,EAAE,IAAI;EACZ,eAAK;IACH,gBAAgB,EAAE,OAAO;IACzB,MAAM,EAAE,IAAI;EACd,gBAAM;IACJ,gBAAgB,EAAE,OAAO;IACzB,MAAM,EAAE,IAAI;IACZ,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM;IACtB,eAAe,EAAE,YAAY",
+"sources": ["Location.sass"],
+"names": [],
+"file": "Location.css"
+}

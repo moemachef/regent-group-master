@@ -1,0 +1,44 @@
+.location {
+  transform: translateY(50px);
+  height: 80vh;
+}
+.location .left {
+  background-color: #b39951;
+  height: 80vh;
+  padding: 0;
+}
+.location .right {
+  background-color: #0e1f32;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.location .right .each {
+  text-align: center;
+}
+.location .right .each i {
+  color: #fff;
+  font-size: 60px;
+}
+.location .right .each p {
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: 800;
+}
+.location .right .each p.infoTextAr {
+  font-family: 'cairo', 'sans-serif';
+}
+.location .right .each h2 {
+  color: #fff;
+}
+@media (max-width: 992px) {
+  .location {
+    height: auto;
+  }
+  .location .right {
+    height: auto;
+    padding: 20px 10px;
+  }
+}
+/*# sourceMappingURL=Location.css.map */

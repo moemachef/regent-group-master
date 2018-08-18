@@ -1,0 +1,74 @@
+.places
+  padding-bottom: 30px
+  .text
+    margin-bottom: 30px
+    h2
+      color: #222222
+      letter-spacing: 0.1em
+      position: relative
+      &::after
+        content: "NEARBY PLACES"
+        position: absolute
+        line-height: 1em
+        width: 450px
+        z-index: -1
+        color: rgba(0, 0, 0, 0.04)
+        left: -50%
+        font-size: 2em
+        font-weight: 600
+    hr
+      border: 2px solid #CDA036
+  .places-each
+    text-align: center
+    margin-top: 20px
+    .image
+      width: 195px
+      height: 141px
+      position: relative
+      left: 50%
+      transform: translateX(-50%)
+      box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2)
+      background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1526647656/other/places.png")
+      &.metro
+        background-position: -225px -171px
+      &.taksim
+        background-position: -225px -332px
+      &.sultan
+        background-position: -440px -10px
+      &.ataturk
+        background-position: -10px -10px
+      &.metrobus
+        background-position: -225px -10px
+      &.new-airport
+        background-position: -10px -171px
+      &.tem
+        background-position: -440px -171px
+      &.beach
+        background-position: -10px -332px
+      p
+        color: #fff
+        font-weight: 800
+        font-family: "Oswald", sans-serif
+        font-size: 2em
+        position: absolute
+        bottom: 20px
+        left: 50%
+        transform: translateX(-50%)
+    .text-each
+      width: 195px
+      box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2)
+      padding: 10px 0
+      position: relative
+      left: 50%
+      transform: translateX(-50%)
+      p
+        font-weight: 600
+        &.infoTextAr
+          font-family: "JFRegular", sans-serif
+      hr
+        border: 1px solid #CDA036
+        width: 20%
+        margin: auto
+        margin-top: 6px
+
+/*# sourceMappingURL=Places.css.map

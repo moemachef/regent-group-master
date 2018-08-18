@@ -1,0 +1,85 @@
+.contact-us{
+  height: 100% !important;
+  /* overflow-y: hidden;
+  background-image: url("https://res.cloudinary.com/dqbgnn5hf/image/upload/v1533326049/36930980_10217961770462363_6351831480561303552_n.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.2); */
+}
+/* .contactus-header {
+  background-image: url("https://res.cloudinary.com/dqbgnn5hf/image/upload/v1533326049/36930980_10217961770462363_6351831480561303552_n.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+} */
+.contact-section {
+  /* background-color: rgba(0,0,0,0.2) */
+}
+/* .contact-section h1 {
+  color: #fff;
+} */
+.body-h1::before {
+
+  /* content: "CONTACT US" !important; */
+}
+.contact-background {
+  background-color: #fff;
+  margin-top: 200px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  /* position: relative; */
+  /* top: 40%; */
+
+}
+.contact-background > .contact-section h1 {
+
+  display: none;
+}
+.contact-background .contact-text {
+  margin-bottom: 80px;
+}
+.contact-background .contact-text h1::before {
+  content: "Why Contact Us";
+}
+.contact-background .contact-text h1::after {
+  margin-right: 10px;
+  width: 30px;
+}
+.contact-background .contact-text .titleAr{
+  text-align: right;
+  direction: rtl;
+  letter-spacing: 0;
+  font-family: 'JFRegular', sans-serif;
+}
+.contact-background .contact-text .titleAr::before{
+  display: none !important;
+
+}
+@media (max-width:992px){
+  .contact-background{
+    margin-top: 100px;
+    padding-bottom: 0px;
+  }
+  .contact-background .contact-text h1 {
+    margin-bottom: 20px !important;
+  }
+    .contact-background .contact-text p {
+      text-align: center !important;
+    }
+  .contact-background > .contact-section h1 {
+
+    display: none !important;
+  }
+  .contact-background > .contact-section > .contact-input  {
+    height: 100%;
+    display: none !important;
+
+  }
+  .contact-background > .contact-section > .contact-input > .contact-social-mobile {
+    display: none;
+    background-color: red;
+  }
+}

@@ -1,0 +1,231 @@
+.whats-icon
+  top: 5px !important
+  left: 5px !important
+
+.bm-burger-button, .bm-menu
+  display: none
+
+.dropdown-content
+  text-shadow: center
+  border: none !important
+  box-shadow: none !important
+  background-color: red
+  li
+    margin: auto
+    text-shadow: none
+    padding-left: 20px
+    border: none !important
+    box-shadow: none !important
+
+.navbar-fixed
+  z-index: 100
+  position: absolute
+  z-index: 100
+  .normal-nav
+    background-color: rgba(47, 47, 134, 0.8)
+    background-color: rgba(47, 47, 134, 0.8)
+    .brand-logo
+      margin-left: 20px
+      img
+        width: 200px
+    .side-nav
+      padding: 40px 0
+      height: 100vh
+      z-index: 10
+      position: relative
+      z-index: 200
+      background-color: #222222
+      text-align: center
+      img
+        width: 50%
+        height: auto
+        margin-bottom: 30px
+      li
+        margin-top: 20px
+        width: 100%
+        &.active
+          background-color: #cda036
+          a
+            font-weight: 400
+            letter-spacing: 0.5em
+            font-size: 1.1em
+        a
+          color: #fff
+          font-size: 1em
+          letter-spacing: 0.2em
+          font-weight: 200
+    .nav-links
+      margin: auto
+      height: 100%
+      width: 50%
+      text-align: center
+      display: flex
+      justify-content: space-between
+      &.navbarAr
+        display: flex
+        flex-direction: row-reverse
+        li a
+          letter-spacing: 0
+          font-family: "Cairo", sans-serif !important
+          &.selected
+            font-family: "Cairo", sans-serif !important
+      li
+        margin: 2px
+        a
+          color: #b49952
+          letter-spacing: 0.2em
+          font-size: 1em
+          font-weight: 300
+          max-height: 50px
+          transition: all 0.3s
+          background-color: transparent
+          &:hover
+            transform: scale(1.2)
+            background-color: #b49952
+            color: white
+          &.selected
+            font-weight: 600
+            font-size: 1.1em
+    .language
+      width: 25%
+      position: absolute
+      top: 0
+      right: 0
+      li
+        color: #222222
+        display: inline
+        cursor: pointer
+        padding: 0 10px
+        a
+          color: #222222
+          font-weight: 300
+          display: inline
+          padding: 0
+          font-size: 0.9em
+          &.language-a
+            color: #b49952
+            font-size: 1em
+            font-weight: 300
+            max-height: 50px
+            transition: all 0.3s
+            background-color: transparent
+            /*      color: #b49952;
+             *   background-color: transparent;
+             *
+             *   transition: all 0.3s;
+             *   background-color: #fff;
+            &:hover
+              transform: scale(1.2) !important
+              background-color: transparent
+              color: white !important
+              color: white
+          &:hover
+            transform: scale(2.2)
+            background-color: #b49952
+            color: white
+          ion-icon
+            margin: 3px
+            font-size: 1em
+            transform: translateY(4px)
+            color: #fff
+            /* display: none;
+          &.btn-large
+            color: #fff
+            padding: 5px 10px
+
+/*nav bar items
+/*nav bar items on hover
+/* .navbar-fixed .normal-nav .nav-links li a.selected:hover::after {
+ *  width: 0%;
+ *}
+ *.navbar-fixed .normal-nav .nav-links li a::after {
+ *  content: '';
+ *  display: block;
+ *  margin-top: -10px;
+ *  width: 0;
+ *  height: 2px;
+ *  background: #cda036;
+ *  transition: all 0.3s;
+ *}
+ *.navbar-fixed .normal-nav .nav-links li a:hover::after {
+ *  width: 100%;
+ *}
+/* Language Buttons
+/* language button on hover
+/* whatsapp button on hover
+/* Whatsapp Icon
+/* Whatsapp Button
+/* .navbar-fixed .normal-nav .language li a p {
+ *  margin: 0;
+ *  height: 10px;
+ *}
+@media (max-width: 992px)
+  .bm-burger-button
+    position: fixed
+    width: 25px
+    height: 18px
+    right: 20px
+    top: 20px
+    display: block
+    opacity: 1
+  /* Color/shape of burger icon bars
+  .bm-burger-bars
+    background: #222222
+    height: 3px !important
+  /* Position and sizing of clickable cross button
+  .bm-cross-button
+    height: 24px
+    width: 24px
+  /* Color/shape of close button cross
+  .bm-cross
+    background: #cda036
+  /* General sidebar styles
+  .bm-menu
+    background: #cda036
+    padding: 2.5em 1.5em 0
+    font-size: 1em
+    width: 100%
+    display: block
+  /* Morph shape necessary with bubble or elastic
+  .bm-morph-shape
+    fill: #cda036
+  /* Wrapper for item list
+  .bm-item-list
+    color: #cda036
+    background-color: #2f2f86
+    padding: 0.8em
+    width: 100% !important
+    text-align: center
+    font-size: 2em
+    border: none
+    box-shadow: none
+    li
+      width: 100% !important
+      a
+        font-family: "Nunito Sans", sans-serif !important
+        font-weight: 100
+        letter-spacing: 0.1em
+        font-size: 0.9em
+        &.selected
+          font-size: 1em
+          font-weight: 500
+          color: #cda036
+    .sidenav-logo
+      width: 60%
+      height: auto
+      margin: auto
+      margin-bottom: 40px
+  /* Styling of overlay
+  .bm-overlay
+    background: rgba(0, 0, 0, 0.3)
+  .normal-nav
+    .brand-logo
+      margin: 0 !important
+    .button-collapse i
+      color: #222222
+
+@media (min-width: 992px) and (max-width: 1200px)
+  .navbar-fixed .normal-nav .nav-links
+    width: 50%
+
+/*# sourceMappingURL=Navbar.css.map

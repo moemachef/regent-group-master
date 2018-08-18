@@ -1,0 +1,15 @@
+.home {
+  height: 100%;
+  overflow-y: hidden;
+}
+/* .navbar-fixed {
+  display: none;
+} */
+.carouselTitleAr {
+  letter-spacing: 0 !important;
+  direction: rtl;
+  font-family: 'JFRegular', sans-serif
+}
+.carouselTitleAr::before {
+  display: none;
+}

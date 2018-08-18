@@ -1,0 +1,212 @@
+.services-section {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 220vh;
+}
+.services-section .services-section-front {
+  position: absolute;
+  z-index: 20;
+  top: 40px;
+  left: 50%;
+
+  transform: translateX(-50%);
+}
+.services-section .services-section-front .services-section-each {
+  height: 40vh;
+  width: 65vw;
+  margin-bottom: 100px;
+  z-index: 30;
+  box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2);
+}
+.services-section
+  .services-section-front
+  .services-section-each
+  .services-text {
+  height: 100%;
+  width: 50%;
+  background-color: #382b78;
+  text-align: left;
+  color: #fff;
+  padding: 10vh;
+  position: relative;
+  overflow: hidden;
+}
+.services-section
+  .services-section-front
+  .services-section-each
+  .services-text
+  h5 {
+  letter-spacing: 0.2em;
+}
+.services-section
+  .services-section-front
+  .services-section-each
+  .services-text
+  h5.text-direction {
+  letter-spacing: 0 !important;
+  font-family: 'JFRegular', sans-serif;
+}
+.services-section
+  .services-section-front
+  .services-section-each
+  .services-text
+  p {
+  margin-top: 20px;
+  color: #fff;
+  opacity: 0.6;
+  line-height: 1.7em;
+  font-weight: 100;
+}
+.services-section
+  .services-section-front
+  .services-section-each
+  .services-text
+  p.text-direction {
+  direction: rtl;
+  text-align: right !important;
+  letter-spacing: 0 !important;
+  font-family: 'JFLight', sans-serif;
+}
+.services-section .services-section-front .services-section-each .services-img {
+  height: 100%;
+  width: 50%;
+  padding: 0;
+  position: relative;
+  position: center;
+  size: cover;
+  repeat: no-repeat;
+}
+.services-section .services-section-front .services-section-each.first {
+  margin-top: 40px;
+}
+.services-section
+  .services-section-front
+  .services-section-each.first
+  .services-img {
+  margin-top: -22px !important;
+  background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1533325467/regent-react-real-estate-app/Screen_Shot_2018-05-21_at_11.55.05_AM.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.services-section
+  .services-section-front
+  .services-section-each.second
+  .services-text {
+  background-color: #b49952;
+}
+.services-section
+  .services-section-front
+  .services-section-each.second
+  .services-img {
+  background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1533325436/regent-react-real-estate-app/DSC_9526-rev.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 0px !important;
+}
+.services-section
+  .services-section-front
+  .services-section-each.third
+  .services-text {
+  background-color: #382b78;
+}
+.services-section
+  .services-section-front
+  .services-section-each.third
+  .services-img {
+  background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1533325436/regent-react-real-estate-app/Meydan_Ardicli_Vaz_Aci_09_Gece_B_Email.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.services-section
+  .services-section-front
+  .services-section-each.forth
+  .services-text {
+  background-color: #b49952;
+}
+.services-section
+  .services-section-front
+  .services-section-each.forth
+  .services-img {
+  background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1533325430/regent-react-real-estate-app/photo-1493246318656-5bfd4cfb29b8.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .services-section {
+    /* display: none; */
+    margin: auto;
+    height: 180vh;
+  }
+  .services-section .services-section-bg {
+    width: 75vw;
+    margin: auto;
+
+    top: -45%;
+    height: 150%;
+  }
+  .services-section .services-section-bg h1 {
+    letter-spacing: 0.2em !important;
+    font-size: 1.4em;
+  }
+  .services-section .services-section-bg hr {
+    width: 30%;
+  }
+  .services-section .services-section-front {
+    width: 90vw !important;
+    margin: auto;
+    top: 40px;
+  }
+  .services-section .services-section-front .services-section-each {
+    width: 100% !important;
+    margin: auto;
+    margin-bottom: 30px !important;
+  }
+  .services-section
+    .services-section-front
+    .services-section-each
+    .services-text {
+    width: 100% !important;
+    padding: 30px !important;
+  }
+  .services-section
+    .services-section-front
+    .services-section-each
+    .services-img {
+    display: none;
+  }
+  .services-section
+    .services-section-front
+    .services-section-each.first
+    .services-img {
+    top: 0 !important;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .nav-links {
+    width: 50% !important;
+  }
+  .services-section {
+    height: 100vh !important;
+  }
+  .services-section .services-section-front .services-section-each {
+    height: 20vh !important;
+  }
+  .services-text {
+    padding: 30px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .services-text {
+    padding: 20px !important;
+  }
+}
+
+/*# sourceMappingURL=Sections.css.map */

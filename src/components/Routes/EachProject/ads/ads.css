@@ -1,0 +1,26 @@
+.ads {
+  margin-top: 30px; }
+  .ads .ads-carousel {
+    margin: auto; }
+    .ads .ads-carousel .ads-each {
+      margin: auto;
+      text-align: center;
+      height: 100%; }
+      .ads .ads-carousel .ads-each img {
+        margin: auto;
+        height: 100%; }
+
+@media (max-width: 992px) {
+  .ads {
+    width: 100%;
+    height: 90px; }
+    .ads .ads-carousel {
+      width: 100%; }
+      .ads .ads-carousel .ads-each {
+        width: 100%; }
+        .ads .ads-carousel .ads-each img {
+          width: 100% !important;
+          display: none;
+          height: auto; } }
+
+/*# sourceMappingURL=ads.css.map */

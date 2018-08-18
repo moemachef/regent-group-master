@@ -1,0 +1,63 @@
+.privilages {
+  padding-bottom: 30px; }
+  .privilages .text {
+    margin-bottom: 30px; }
+    .privilages .text h2 {
+      color: #222222;
+      letter-spacing: 0.1em;
+      position: relative; }
+      .privilages .text h2::after {
+        content: "PRIVILEGES";
+        position: absolute;
+        z-index: -1;
+        color: rgba(0, 0, 0, 0.04);
+        left: -50%;
+        font-size: 2em;
+        font-weight: 600; }
+    .privilages .text hr {
+      border: 2px solid #CDA036; }
+  .privilages .privilages-each {
+    text-align: center;
+    margin-top: 20px; }
+    .privilages .privilages-each .image {
+      width: 195px;
+      height: 141px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2);
+      background-image: url("https://res.cloudinary.com/cayangroup9292/image/upload/v1522063657/home-page-whyus/previlages.png"); }
+      .privilages .privilages-each .image.parks {
+        background-position: -869px -10px; }
+      .privilages .privilages-each .image.family {
+        background-position: -1516px -10px; }
+      .privilages .privilages-each .image.pool {
+        background-position: -654px -10px; }
+      .privilages .privilages-each .image.security {
+        background-position: -10px -10px; }
+      .privilages .privilages-each .image.cafes {
+        background-position: -1300px -10px; }
+      .privilages .privilages-each .image.resturants {
+        background-position: -439px -10px; }
+      .privilages .privilages-each .image.gym {
+        background-position: -224px -10px; }
+      .privilages .privilages-each .image.trails {
+        background-position: -1084px -10px; }
+    .privilages .privilages-each .text-each {
+      width: 195px;
+      box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2);
+      padding: 10px 0;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%); }
+      .privilages .privilages-each .text-each p {
+        font-weight: 600; }
+        .privilages .privilages-each .text-each p.infoTextAr {
+          font-family: "JFRegular", sans-serif; }
+      .privilages .privilages-each .text-each hr {
+        border: 1px solid #CDA036;
+        width: 20%;
+        margin: auto;
+        margin-top: 6px; }
+
+/*# sourceMappingURL=Privileges.css.map */

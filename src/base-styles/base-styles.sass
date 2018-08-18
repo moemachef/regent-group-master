@@ -1,0 +1,65 @@
+$black-bg: #222222
+$lightgrey : #5D5D5D
+$lightgrey-background: #F0F0F0
+$main-cayan-gold: #CDA036
+$light-black: #1D1D1D
+$dark-brown:  #0D0800
+$button-blue: #28A9E5
+$shadow: 5px 5px 100px 0 rgba(0,0,0,0.2)
+$margin-left: 30px
+
+*
+  font-family: "Montserrat", sans-serif
+  font-weight: 100
+  margin: 0
+  padding: 0
+
+h1, h2, h3, h4
+  font-weight: 700
+
+h1
+  padding-top: 50px
+  font-size: 2em
+  &.body-h1
+    font-size: 2.5em
+    letter-spacing: 0.1em
+    position: relative
+    &::before
+      content: "Projects"
+      color: rgba(0, 0, 0, 0.05)
+      font-size: 1.5em
+      position: absolute
+      z-index: 1
+      left: 15vw
+      top: 4vh
+    &::after
+      content: ""
+      height: 3px
+      width: 80px
+      margin-left: 10px
+      top: 80%
+      background-color: #CDA036
+      position: absolute
+
+p
+  color: rgba(0, 0, 0, 0.8)
+  font-weight: 300
+  font-size: 0.9em
+
+#sidenav-overlay
+  display: none
+  opacity: 0
+
+@media (max-width: 992px)
+  .body-h1
+    display: table !important
+    margin: auto !important
+    &::after
+      position: static !important
+      content: ""
+      display: block !important
+      margin-top: 5px
+      width: 100% !important
+      height: 3px
+      background: #CDA036
+      margin-left: 0 !important

@@ -1,0 +1,302 @@
+.projects-hero-carousel-mobile {
+  display: none; }
+
+.projects-hero-carousel {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  background-image: url("https://res.cloudinary.com/dqbgnn5hf/image/upload/v1534086165/architecture-buildings-business-358502.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  .projects-hero-carousel .container1 {
+    position: relative;
+    right: 0;
+    width: 100%;
+    margin-right: 50px;
+    height: 100%;
+    text-align: center; }
+    .projects-hero-carousel .container1.titleAr {
+      bottom: 40px; }
+      .projects-hero-carousel .container1.titleAr .project-text h1 {
+        font-family: "JFRegular", sans-serif; }
+    .projects-hero-carousel .container1 .project-text {
+      position: absolute;
+      margin: auto;
+      bottom: -50px;
+      left: 50%;
+      transform: translateX(-50%); }
+      .projects-hero-carousel .container1 .project-text h1 {
+        padding: 0;
+        margin: 50px 0 0 0;
+        color: #fff;
+        font-size: 12em;
+        font-weight: 800; }
+    .projects-hero-carousel .container1 .form-projects {
+      float: right;
+      margin: auto;
+      width: 25%;
+      height: 100%;
+      position: relative;
+      right: 0; }
+      .projects-hero-carousel .container1 .form-projects #thank-you {
+        background-color: #222222;
+        width: 120%;
+        top: 30%;
+        height: 400px;
+        position: absolute; }
+        .projects-hero-carousel .container1 .form-projects #thank-you.show1 {
+          left: -150%;
+          text-align: center;
+          color: #fff;
+          z-index: 400;
+          transition: all 0.3s ease-in; }
+        .projects-hero-carousel .container1 .form-projects #thank-you h2.titleAr {
+          font-family: "JFRegular", sans-serif; }
+        .projects-hero-carousel .container1 .form-projects #thank-you i {
+          color: green !important;
+          font-size: 100px;
+          display: block; }
+        .projects-hero-carousel .container1 .form-projects #thank-you p {
+          color: #fff; }
+          .projects-hero-carousel .container1 .form-projects #thank-you p.titleAr {
+            font-family: "JFRegular", sans-serif; }
+        .projects-hero-carousel .container1 .form-projects #thank-you a {
+          cursor: pointer;
+          margin: 20px;
+          color: #fff;
+          padding: 10px 20px; }
+          .projects-hero-carousel .container1 .form-projects #thank-you a.titleAr {
+            font-family: "JFRegular", sans-serif; }
+        .projects-hero-carousel .container1 .form-projects #thank-you .browse {
+          background-color: green; }
+        .projects-hero-carousel .container1 .form-projects #thank-you .close {
+          background-color: red !important; }
+        .projects-hero-carousel .container1 .form-projects #thank-you.hide1 {
+          position: absolute;
+          left: -500%; }
+      .projects-hero-carousel .container1 .form-projects .contact-input1 {
+        position: relative;
+        right: 0;
+        background-color: #fff;
+        z-index: 10;
+        width: 90%;
+        top: 15%;
+        padding: 20px 30px;
+        color: #fff;
+        box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2); }
+        .projects-hero-carousel .container1 .form-projects .contact-input1 h5 {
+          font-weight: 700;
+          font-size: 2em;
+          margin-top: 0;
+          color: #222222; }
+          .projects-hero-carousel .container1 .form-projects .contact-input1 h5.titleAr {
+            text-align: right;
+            direction: rtl;
+            letter-spacing: 0;
+            font-family: "JFRegular", sans-serif; }
+        .projects-hero-carousel .container1 .form-projects .contact-input1 p {
+          font-weight: 100;
+          opacity: 1;
+          color: #222222; }
+          .projects-hero-carousel .container1 .form-projects .contact-input1 p.titleAr {
+            text-align: right;
+            direction: rtl;
+            letter-spacing: 0;
+            font-family: "JFLight", sans-serif; }
+        .projects-hero-carousel .container1 .form-projects .contact-input1.titleAr {
+          top: 15% !important;
+          transform: translateY(15%); }
+        .projects-hero-carousel .container1 .form-projects .contact-input1 form {
+          text-align: center; }
+          .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field {
+            width: 90%;
+            opacity: 1;
+            margin: 5px 0; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field .row .label {
+              text-align: left;
+              position: relative;
+              right: 0;
+              margin-left: 10px;
+              color: #222222; }
+              .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field .row .label.titleAr {
+                position: relative;
+                right: 0;
+                text-align: right;
+                direction: rtl;
+                letter-spacing: 0;
+                margin-right: 0 !important;
+                font-family: "JFLight", sans-serif; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field .hide1 {
+              color: red;
+              display: none; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field .show1 {
+              display: block;
+              color: red; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field .label {
+              text-align: left;
+              color: #222222; }
+              .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field .label.titleAr {
+                display: table;
+                text-align: right;
+                direction: rtl;
+                letter-spacing: 0; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field.inputAr {
+              position: relative;
+              right: 0;
+              text-align: right;
+              direction: rtl;
+              letter-spacing: 0;
+              margin-right: 0 !important; }
+              .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field.inputAr .label.bitch {
+                transform: translateX(-10px);
+                margin-right: 20px; }
+              .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field.inputAr input {
+                position: relative;
+                right: 0; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field i {
+              font-size: 25px;
+              margin-top: 20px; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field input {
+              height: 35px; }
+              .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field input::placeholder {
+                opacity: 1;
+                font-size: 0.8em; }
+              .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field input:focus {
+                border-bottom: 1px solid #CDA036 !important;
+                box-shadow: 0 1px 0 0 #CDA036 !important;
+                border-left: none !important; }
+                .projects-hero-carousel .container1 .form-projects .contact-input1 form .input-field input:focus + label {
+                  color: #CDA036 !important; }
+          .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input {
+            text-align: left !important;
+            direction: ltr;
+            margin-top: 10px;
+            width: 95%;
+            z-index: 200; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input.inputAr {
+              margin-right: 10px;
+              margin-bottom: 20px; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input input {
+              border: none;
+              height: 35px;
+              background-color: transparent;
+              box-shadow: none;
+              max-width: 87%;
+              border-radius: 0;
+              border-bottom: 1px solid rgba(0, 0, 0, 0.4); }
+              .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input input:focus {
+                border-bottom: 1.5px solid #CDA036 !important;
+                box-shadow: 0 1px 0 0 #CDA036 !important;
+                border-left: none !important; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown {
+              background-color: rgba(255, 255, 255, 0);
+              border: none;
+              border-radius: 0; }
+              .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown:hover {
+                background-color: transparent; }
+              .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown .selected-flag {
+                background-color: none; }
+                .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown .selected-flag:hover {
+                  background-color: transparent; }
+              .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown .country-list {
+                background-color: #fff; }
+                .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown .country-list li {
+                  text-align: left; }
+                  .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown .country-list li span {
+                    color: #222222 !important; }
+                  .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown .country-list li:hover, .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown .country-list li.highlight {
+                    background-color: #CDA036; }
+                  .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown .country-list li .flag {
+                    width: 20px; }
+                  .projects-hero-carousel .container1 .form-projects .contact-input1 form .react-tel-input .flag-dropdown .country-list li .dial-code {
+                    color: #fff; }
+          .projects-hero-carousel .container1 .form-projects .contact-input1 form button {
+            margin: 30px auto;
+            width: 200px;
+            background-color: #499bea;
+            background: filter-gradient(#499bea, #207ce5, horizontal);
+            background-image: linear-gradient(left, #499bea 0%, #207ce5 100%);
+            font-size: 0.8em;
+            font-weight: 500; }
+        .projects-hero-carousel .container1 .form-projects .contact-input1 .contact-info1 {
+          margin: auto;
+          text-align: center;
+          opacity: 1;
+          clear: both; }
+          .projects-hero-carousel .container1 .form-projects .contact-input1 .contact-info1 i {
+            color: #222222;
+            margin: auto;
+            font-size: 25px !important;
+            transform: translateY(-10px);
+            display: none; }
+          .projects-hero-carousel .container1 .form-projects .contact-input1 .contact-info1 p {
+            padding-left: 10px;
+            opacity: 1;
+            font-weight: 400; }
+        .projects-hero-carousel .container1 .form-projects .contact-input1 .contact-social-mobile {
+          display: none;
+          text-align: center;
+          margin-top: 20px; }
+          .projects-hero-carousel .container1 .form-projects .contact-input1 .contact-social-mobile a {
+            margin: 5px; }
+            .projects-hero-carousel .container1 .form-projects .contact-input1 .contact-social-mobile a i {
+              color: rgba(255, 255, 255, 0.3);
+              font-size: 25px;
+              margin-top: -10px; }
+
+@media (min-width: 1500px) {
+  .projects-hero-carousel .container1 {
+    margin: 0; } }
+
+@media (max-width: 550px) {
+  .projects-hero-carousel {
+    background-attachment: scroll;
+    width: 100%;
+    height: 110vh; }
+    .projects-hero-carousel .container1 .project-text {
+      bottom: -15px; }
+      .projects-hero-carousel .container1 .project-text.titleAr {
+        bottom: -40px; }
+      .projects-hero-carousel .container1 .project-text h1 {
+        font-size: 5.5em !important; }
+    .projects-hero-carousel .container1 .form-projects {
+      width: 100%; }
+      .projects-hero-carousel .container1 .form-projects #thank-you {
+        width: 100%;
+        top: 30%;
+        border: 2px solid #CDA036; }
+        .projects-hero-carousel .container1 .form-projects #thank-you a {
+          margin: 10px; }
+      .projects-hero-carousel .container1 .form-projects .contact-input1 {
+        width: 90%;
+        margin: auto;
+        top: 10% !important;
+        transform: translateY(20px) !important; }
+        .projects-hero-carousel .container1 .form-projects .contact-input1.titleAr {
+          top: 0; } }
+
+@media (min-width: 551px) and (max-width: 992px) {
+  .projects-hero-carousel {
+    background-attachment: scroll;
+    width: 100%; }
+    .projects-hero-carousel .container {
+      bottom: 50px;
+      height: 100px; }
+      .projects-hero-carousel .container.titleAr {
+        bottom: 80px; }
+      .projects-hero-carousel .container h1 {
+        font-size: 8.5em !important; } }
+
+@media (min-width: 1115px) and (max-width: 1400px) {
+  .projects-hero-carousel {
+    height: 100vh; } }
+
+@media (min-width: 1410px) {
+  .projects-hero-carousel {
+    height: 85vh; } }
+
+/*# sourceMappingURL=Header.css.map */

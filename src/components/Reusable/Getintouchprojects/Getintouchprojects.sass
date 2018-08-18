@@ -1,0 +1,401 @@
+.contact-section
+  margin-top: 10px
+  width: 100%
+  height: 800px
+  background-color: #fff
+  position: relative
+  h1
+    margin-top: 0
+    &.titleAr
+      text-align: right
+      direction: rtl
+      letter-spacing: 0
+      font-family: "JFRegular", sans-serif
+      &::before
+        display: none
+      &::after
+        width: 40px
+        margin-right: 10px
+    &::before
+      content: "CONTACT US" !important
+    &::after
+      top: 80%
+  #thank-you
+    background-color: #222222
+    width: 40%
+    top: 50%
+    height: 400px
+    position: absolute
+    &.show1
+      left: 50%
+      transform: translateX(-50%)
+      text-align: center
+      color: #fff
+      z-index: 400
+      transition: all 0.3s ease-in
+    h2.titleAr
+      font-family: "JFRegular", sans-serif
+    i
+      color: green !important
+      font-size: 100px
+      display: block
+    p
+      color: #fff
+      &.titleAr
+        font-family: "JFRegular", sans-serif
+    a
+      cursor: pointer
+      margin: 20px
+      color: #fff
+      padding: 10px 20px
+      &.titleAr
+        font-family: "JFRegular", sans-serif
+    .browse
+      background-color: green
+    .close
+      background-color: red !important
+    &.hide1
+      position: absolute
+      left: -150%
+  .contact-social
+    width: 30px
+    background: #fff
+    transform: translateY(10%)
+    text-align: center
+    padding: 0
+    box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2)
+    .contact-social-icons
+      width: 100%
+      height: 70px
+      margin: 10px auto
+      padding: 0
+      text-align: center
+      display: flex
+      cursor: pointer
+      background-position: center
+      background-size: 20px
+      background-repeat: no-repeat
+      transition: all 0.3s
+      a
+        width: 100%
+        height: 100%
+        text-align: center
+        i
+          font-size: 30px
+          color: #222222
+          transition: all 0.3
+          &:hover
+            &.twitter
+              color: #1b95e0
+            &.facebook
+              color: #365899
+            &.instagram
+              color: #ed4956
+            &.youtube
+              color: #ff0000
+            &.linkedin
+              color: #1b95e0
+  .contact-input1
+    height: 600px
+    top: 50%
+    background-color: #fff
+    z-index: 10
+    transform: translateY(20px)
+    width: 30%
+    padding: 0px 0px 0px 30px
+    color: #fff
+    box-sizing: border-box
+    box-shadow: 20px 5px 100px 0 rgba(0, 0, 0, 0.1)
+    h5
+      font-weight: 700
+      color: #222222
+      font-size: 2em
+      margin: 0 auto
+      text-align: center
+      &.titleAr
+        text-align: right
+        direction: rtl
+        letter-spacing: 0
+        font-family: "JFRegular", sans-serif
+        padding-right: 30px
+    p
+      font-weight: 400
+      opacity: 0.5
+      text-align: center
+      &.titleAr
+        text-align: right
+        direction: rtl
+        letter-spacing: 0
+        font-family: "JFLight", sans-serif
+        padding-right: 30px
+    .contact-input-right
+      text-align: center
+      background-image: url("https://res.cloudinary.com/cayangroup9292/image/upload/v1521981520/Projects-page/_projects-hero-lg.jpg")
+      height: 100%
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+      img
+        width: 40%
+        height: auto
+        margin-top: 50px
+      .contact-input-right-text
+        h4
+          color: #fff
+          &.titleAr
+            text-align: right
+            direction: rtl
+            letter-spacing: 0
+            font-family: "JFRegular", sans-serif
+            display: table
+            margin: 20px auto
+        h5
+          border-bottom: 2px solid #CDA036
+          padding-bottom: 5px
+          display: table
+          margin: auto
+          font-size: 1.5em
+          margin-bottom: 10px
+          color: #fff
+          &.titleAr
+            text-align: right
+            direction: rtl
+            letter-spacing: 0
+            font-family: "JFLight", sans-serif
+            padding-right: 0
+        p
+          margin-top: 0px
+          font-size: 1.2em
+          color: #fff
+          opacity: 1
+          text-align: center
+    .contact-input-left
+      padding-top: 30px
+      form .input-field input
+        color: #222222
+    form
+      text-align: center
+      .input-field
+        width: 90%
+        opacity: 1
+        .row .label
+          text-align: left
+          position: relative
+          right: 0
+          margin-left: 10px
+          &.titleAr
+            position: relative
+            right: 0
+            text-align: right
+            direction: rtl
+            letter-spacing: 0
+            margin-right: 0 !important
+            font-family: "JFLight", sans-serif
+        .hide1
+          color: red
+          display: none
+        .show1
+          display: block
+          color: red
+          float: left
+          text-align: left !important
+        .label
+          text-align: left
+          &.titleAr
+            display: table
+            text-align: right
+            direction: rtl
+            letter-spacing: 0
+        &.inputAr
+          position: relative
+          right: 0
+          text-align: right
+          direction: rtl
+          letter-spacing: 0
+          margin-right: 0 !important
+          padding-right: 30px
+          input
+            position: relative
+            right: 0
+        i
+          font-size: 25px
+          margin-top: 20px
+        input
+          color: #222222
+          &::placeholder
+            opacity: 0.5
+            font-size: 0.8em
+          &:focus
+            border-bottom: 1px solid #CDA036 !important
+            box-shadow: 0 1px 0 0 #CDA036 !important
+            border-left: none !important
+            + label
+              color: #CDA036 !important
+      .react-tel-input
+        text-align: left !important
+        direction: ltr
+        margin-top: 20px !important
+        width: 95%
+        z-index: 200
+        &.inputAr
+          transform: translateX(-25px)
+        input
+          border: none
+          color: #222222 !important
+          border-bottom: 1px solid #222222 !important
+          background-color: transparent
+          box-shadow: none
+          max-width: 95%
+          border-radius: 0
+          &:focus
+            border-bottom: 1.5px solid #CDA036 !important
+            box-shadow: 0 1px 0 0 #CDA036 !important
+            border-left: none !important
+            color: #222222
+        .flag-dropdown
+          background-color: transparent
+          border: none
+          border-radius: 0
+          &:hover
+            background-color: transparent
+          .selected-flag
+            background-color: none
+            &:hover
+              background-color: transparent
+          .country-list
+            background-color: #222222
+            li
+              text-align: left
+              &:hover, &.highlight
+                background-color: #CDA036
+              .flag
+                width: 20px
+              .dial-code
+                color: #fff
+      button
+        margin: 10px auto
+        width: 200px
+        background-color: #28A9E5
+        font-size: 0.8em
+        font-weight: 500
+    .contact-info
+      margin-top: 10px
+      text-align: left !important
+      opacity: 1
+      i
+        color: #222222
+        font-size: 25px !important
+        margin-top: -10px
+      p
+        padding-left: 40px
+        opacity: 1
+        text-align: left
+    .contact-social-mobile
+      display: none
+      text-align: center
+      margin-top: 20px
+      a
+        margin: 5px
+        i
+          color: rgba(255, 255, 255, 0.3)
+          font-size: 25px
+
+@media (max-width: 992px)
+  .contact-section
+    margin-top: 0px
+    height: 800px !important
+    #thank-you
+      width: 100%
+    .container
+      width: 100%
+      height: 100%
+      .row
+        h1
+          padding-top: 0
+          text-align: center
+          &::before
+            display: none
+        .contact-social
+          display: none
+        .contact-input1
+          position: relative
+          margin: 20px auto 30px auto
+          width: 100%
+          top: 20%
+          transform: translateX(0)
+          padding: 20px 10px
+          height: 100%
+          .h5-first
+            text-align: center
+            display: none
+          .p-first
+            text-align: center
+          p.titleAr
+            padding-right: 0
+          .contact-input-right
+            border-left: none
+            width: 100%
+            top: 0
+            transform: translateY(0)
+            height: auto
+            img
+              margin-top: 0
+            .contact-input-right-text
+              h4
+                margin-top: 0
+              h5
+                margin-bottom: 20px
+              p
+                margin-top: 10px
+                display: none
+          form
+            display: block
+            margin: auto
+            padding-top: 10px
+            text-align: center
+            justify-content: space-between
+            #demo
+              position: relative
+              left: 0
+              width: 80%
+            .react-tel-input
+              width: 90% !important
+              left: 0
+              float: left !important
+              margin-bottom: 10px
+            a
+              &.facebook img
+                width: 10px
+              img
+                width: 20px
+                height: auto
+                margin: 10px
+                display: inline
+          .contact-social-mobile
+            display: block
+            width: 100%
+        .map
+          display: none !important
+
+@media (min-width: 993px) and (max-width: 1200px)
+  .contact-input1 form
+    #demo
+      position: relative
+      left: 0
+      width: 100% !important
+    .intl-tel-input
+      transform: translateX(-20px) !important
+      position: relative !important
+      left: 0 !important
+
+@media (min-width: 1401px) and (max-width: 2000px)
+  .contact-section .contact-input1 form
+    #demo
+      position: relative
+      left: 0
+      width: 230% !important
+    .intl-tel-input
+      left: 0
+      transform: translateX(-300px) !important
+      position: relative !important
+      left: 0 !important

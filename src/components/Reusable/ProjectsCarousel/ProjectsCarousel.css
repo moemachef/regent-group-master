@@ -1,0 +1,597 @@
+@import url(~slick-carousel/slick/slick.css);
+@import url(~slick-carousel/slick/slick-theme.css);
+.arabic-description {
+  direction: rtl;
+  float: right;
+  margin-top: 0;
+}
+
+/* the whole containing div */
+.projetcsCarousel {
+  height: 500px;
+  color: #fff;
+}
+.projetcsCarousel h1.carouselTitleAr {
+  color: #2f2f86;
+  letter-spacing: 0;
+  text-align: right;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+}
+.projetcsCarousel h1.carouselTitleEn {
+  color: #2f2f86;
+  letter-spacing: 0;
+  text-align: left;
+  direction: rtl;
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+.projetcsCarousel .containermy .row .carousel {
+  height: 520px;
+  display: flex;
+}
+.projetcsCarousel .containermy .row .carousel .right-btn,
+.projetcsCarousel .containermy .row .carousel .left-btn {
+  margin: auto;
+  width: 100px;
+  height: 40px;
+  position: relative;
+  z-index: 100;
+  background: #b49952;
+  text-align: center;
+  display: flex;
+}
+.projetcsCarousel .containermy .row .carousel .right-btn p,
+.projetcsCarousel .containermy .row .carousel .left-btn p {
+  margin: auto;
+  font-weight: 400;
+  color: #fff;
+}
+.projetcsCarousel .containermy .row .carousel .right-btn.right-btn,
+.projetcsCarousel .containermy .row .carousel .left-btn.right-btn {
+  right: 10px;
+}
+.projetcsCarousel .containermy .row .carousel .right-btn.right-btn::before,
+.projetcsCarousel .containermy .row .carousel .left-btn.right-btn::before {
+  content: '';
+  color: #b49952;
+  position: absolute;
+  right: -19px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #b49952;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.projetcsCarousel .containermy .row .carousel .right-btn.left-btn,
+.projetcsCarousel .containermy .row .carousel .left-btn.left-btn {
+  left: 10px;
+}
+.projetcsCarousel .containermy .row .carousel .right-btn.left-btn::before,
+.projetcsCarousel .containermy .row .carousel .left-btn.left-btn::before {
+  content: '';
+  color: #b49952;
+  position: absolute;
+  left: -19.5px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 20px solid #b49952;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.projetcsCarousel .containermy .row .carousel .slick-slider {
+  height: 520px;
+}
+.projetcsCarousel .containermy .row .carousel .slick-slider .slick-arrow {
+  width: 100px;
+  position: absolute;
+  z-index: 200;
+  display: inline;
+  height: 40px;
+  opacity: 0;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-arrow.slick-prev {
+  left: -8%;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-arrow.slick-next {
+  right: -8%;
+}
+.projetcsCarousel .containermy .row .carousel .slick-slider .slick-list {
+  background-color: #fff;
+  height: 520px;
+  width: auto;
+  padding-bottom: 10px;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .slick-track {
+  height: 520px;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .slick-track
+  .slick-slide {
+  width: auto;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper {
+  width: 350px;
+  height: 500px;
+  border: 0px solid #f9f7f6;
+  background-color: #f9f7f6;
+  margin: 10px;
+  padding: 0 !important;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative !important;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .carouselImages {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .carouselImages
+  h6 {
+  background-color: #b49952;
+  margin: 0;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  color: #fff;
+  font-size: 1.5em;
+  font-family: 'Oswald', sans-serif;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .carouselImages.cayan-1001 {
+  background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1534242431/IST%201001/galeri-09.jpg');
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .carouselImages.cayan-1201 {
+  background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1534243447/IST%201201/1201-1.jpg');
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .carouselImages.cayan-126 {
+  background-image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1522322995/carousel/cayan-11.jpg');
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .carouselImages.cayan-1601 {
+  background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1534244435/IST%201601/1601-1.jpg');
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .carouselImages.cayan-1101 {
+  background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1534244977/IST%201101/Yuksekdag2.jpg');
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .carouselImages.cayan-1005 {
+  background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1534246419/IST%201005/1005-1.jpg');
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .description {
+  position: relative;
+  padding: 10px;
+  /* height: 110px; */
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .description
+  .project-info1 {
+  height: 200px;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .description
+  h5 {
+  font-size: 1.3em;
+  color: #cda036;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1 {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons {
+  margin: auto;
+  font-weight: 300;
+  color: #2f2f86;
+  width: 90%;
+  height: 100%;
+  padding-left: 5px;
+  text-align: left;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons.arabicTitle {
+  text-align: right !important;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons.arabicTitle
+  .each {
+  text-align: right;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons.arabicTitle
+  i {
+  position: relative;
+  right: 0;
+  margin: 0;
+  text-align: right !important;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons
+  .each {
+  position: relative;
+  margin-top: 1px;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons
+  .each
+  i {
+  display: inline;
+  color: #b49952;
+  font-size: 20px;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons
+  .each
+  i.iconsAr {
+  position: absolute;
+  right: 0;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons
+  .each
+  p {
+  display: inline;
+  font-size: 0.9em;
+  margin-left: 20px;
+  font-weight: 500;
+  display: none;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons
+  .each
+  p.nutural,
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons
+  .each
+  p.classEn {
+  display: inline;
+  margin-right: 40px;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .project-info1
+  .project-info-icons
+  .each
+  p.classAr {
+  padding-top: 60px !important;
+  text-align: right;
+  direction: rtl;
+  display: inline;
+  margin-right: 40px;
+  font-size: 1em;
+  /* float: right; */
+  /* font-size: 0.7em; */
+  font-family: 'Cairo', sans-serif;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .more-details {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  background-color: #222222;
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  padding: 10px;
+  border: none;
+  width: 120px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.projetcsCarousel
+  .containermy
+  .row
+  .carousel
+  .slick-slider
+  .slick-list
+  .wrapper
+  .more-details.carouselTitleAr {
+  font-family: 'Cairo', sans-serif;
+}
+
+@media (min-width: 993px) and (max-width: 1500px) {
+  .projetcsCarousel .containermy {
+    width: 100% !important;
+  }
+  .projetcsCarousel .containermy .right-btn,
+  .projetcsCarousel .containermy .left-btn {
+    width: 0px !important;
+    opacity: 0.2;
+    background-color: transparent !important;
+  }
+  .projetcsCarousel .containermy .right-btn p,
+  .projetcsCarousel .containermy .left-btn p {
+    display: none;
+  }
+  .projetcsCarousel .containermy .slick-slider {
+    width: 90%;
+    margin: 0 !important;
+  }
+  .projetcsCarousel .containermy .slick-slider .slick-arrow {
+    width: 30px !important;
+  }
+  .projetcsCarousel .containermy .slick-slider .slick-arrow.slick-prev {
+    left: -3.5% !important;
+  }
+  .projetcsCarousel .containermy .slick-slider .slick-arrow.slick-next {
+    right: -3.5% !important;
+  }
+  .projetcsCarousel .containermy .slick-slider .slick-list .wrapper {
+    width: 280px !important;
+  }
+  .projetcsCarousel
+    .containermy
+    .slick-slider
+    .slick-list
+    .wrapper
+    .description
+    h5 {
+    font-size: 1.2em !important;
+  }
+  .projetcsCarousel
+    .containermy
+    .slick-slider
+    .slick-list
+    .wrapper
+    .description
+    h6 {
+    font-size: 0.9em !important;
+  }
+}
+
+@media (max-width: 993px) {
+  .projetcsCarousel .containermy {
+    width: 100% !important;
+  }
+  .projetcsCarousel .containermy .right-btn,
+  .projetcsCarousel .containermy .left-btn {
+    width: 0px !important;
+    opacity: 0.2;
+    background-color: transparent !important;
+  }
+  .projetcsCarousel .containermy .right-btn p,
+  .projetcsCarousel .containermy .left-btn p {
+    display: none;
+  }
+  .projetcsCarousel .containermy .slick-slider {
+    width: 90%;
+    margin: 0 !important;
+  }
+  .projetcsCarousel .containermy .slick-slider .slick-arrow {
+    width: 30px !important;
+  }
+  .projetcsCarousel .containermy .slick-slider .slick-arrow.slick-prev {
+    left: -3.5% !important;
+  }
+  .projetcsCarousel .containermy .slick-slider .slick-arrow.slick-next {
+    right: -3.5% !important;
+  }
+  .projetcsCarousel .containermy .slick-slider .slick-list .wrapper {
+    width: 280px !important;
+  }
+  .projetcsCarousel
+    .containermy
+    .slick-slider
+    .slick-list
+    .wrapper
+    .description
+    h5 {
+    font-size: 1.2em !important;
+  }
+  .projetcsCarousel
+    .containermy
+    .slick-slider
+    .slick-list
+    .wrapper
+    .description
+    h6 {
+    font-size: 0.9em !important;
+  }
+}
+
+/*# sourceMappingURL=ProjectsCarousel.css.map */

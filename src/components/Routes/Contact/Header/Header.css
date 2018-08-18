@@ -1,0 +1,8 @@
+.header {
+  height: 90vh !important;
+  background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1534358242/regent-react-real-estate-app/pexels-photo-263564.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}

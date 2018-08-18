@@ -1,0 +1,303 @@
+.projects-hero-carousel-mobile
+  display: none
+
+.projects-hero-carousel
+  margin: 0
+  padding: 0
+  height: 70vh
+  width: 100%
+  position: relative
+  background-image: url("https://res.cloudinary.com/cayangroup9292/image/upload/v1521981520/Projects-page/_projects-hero-lg.jpg")
+  background-position: center
+  background-size: cover
+  background-attachment: fixed
+  background-repeat: no-repeat
+  .container1
+    position: relative
+    right: 0
+    width: 100%
+    margin-right: 50px
+    height: 100%
+    text-align: center
+    &.titleAr
+      bottom: 40px
+      .project-text h1
+        font-family: "JFRegular", sans-serif
+    .project-text
+      position: absolute
+      margin: auto
+      bottom: -50px
+      left: 50%
+      transform: translateX(-50%)
+      h1
+        padding: 0
+        margin: 50px 0 0 0
+        color: #fff
+        font-size: 12em
+        font-weight: 800
+    .form-projects
+      float: right
+      margin: auto
+      width: 25%
+      height: 100%
+      position: relative
+      right: 0
+      #thank-you
+        background-color: #222222
+        width: 120%
+        top: 30%
+        height: 400px
+        position: absolute
+        &.show1
+          left: -150%
+          text-align: center
+          color: #fff
+          z-index: 400
+          transition: all 0.3s ease-in
+        h2.titleAr
+          font-family: "JFRegular", sans-serif
+        i
+          color: green !important
+          font-size: 100px
+          display: block
+        p
+          color: #fff
+          &.titleAr
+            font-family: "JFRegular", sans-serif
+        a
+          cursor: pointer
+          margin: 20px
+          color: #fff
+          padding: 10px 20px
+          &.titleAr
+            font-family: "JFRegular", sans-serif
+        .browse
+          background-color: green
+        .close
+          background-color: red !important
+        &.hide1
+          position: absolute
+          left: -500%
+      .contact-input1
+        position: relative
+        right: 0
+        background-color: #fff
+        z-index: 10
+        width: 90%
+        top: 15%
+        padding: 20px 30px
+        color: #fff
+        box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2)
+        h5
+          font-weight: 700
+          font-size: 2em
+          margin-top: 0
+          color: #222222
+          &.titleAr
+            text-align: right
+            direction: rtl
+            letter-spacing: 0
+            font-family: "JFRegular", sans-serif
+        p
+          font-weight: 100
+          opacity: 1
+          color: #222222
+          &.titleAr
+            text-align: right
+            direction: rtl
+            letter-spacing: 0
+            font-family: "JFLight", sans-serif
+        &.titleAr
+          top: 15% !important
+          transform: translateY(15%)
+        form
+          text-align: center
+          .input-field
+            width: 90%
+            opacity: 1
+            margin: 5px 0
+            .row .label
+              text-align: left
+              position: relative
+              right: 0
+              margin-left: 10px
+              color: #222222
+              &.titleAr
+                position: relative
+                right: 0
+                text-align: right
+                direction: rtl
+                letter-spacing: 0
+                margin-right: 0 !important
+                font-family: "JFLight", sans-serif
+            .hide1
+              color: red
+              display: none
+            .show1
+              display: block
+              color: red
+            .label
+              text-align: left
+              color: #222222
+              &.titleAr
+                display: table
+                text-align: right
+                direction: rtl
+                letter-spacing: 0
+            &.inputAr
+              position: relative
+              right: 0
+              text-align: right
+              direction: rtl
+              letter-spacing: 0
+              margin-right: 0 !important
+              .label.bitch
+                transform: translateX(-10px)
+                margin-right: 20px
+              input
+                position: relative
+                right: 0
+            i
+              font-size: 25px
+              margin-top: 20px
+            input
+              height: 35px
+              &::placeholder
+                opacity: 1
+                font-size: 0.8em
+              &:focus
+                border-bottom: 1px solid #CDA036 !important
+                box-shadow: 0 1px 0 0 #CDA036 !important
+                border-left: none !important
+                + label
+                  color: #CDA036 !important
+          .react-tel-input
+            text-align: left !important
+            direction: ltr
+            margin-top: 10px
+            width: 95%
+            z-index: 200
+            &.inputAr
+              margin-right: 10px
+              margin-bottom: 20px
+            input
+              border: none
+              height: 35px
+              background-color: transparent
+              box-shadow: none
+              max-width: 87%
+              border-radius: 0
+              border-bottom: 1px solid rgba(0, 0, 0, 0.4)
+              &:focus
+                border-bottom: 1.5px solid #CDA036 !important
+                box-shadow: 0 1px 0 0 #CDA036 !important
+                border-left: none !important
+            .flag-dropdown
+              background-color: rgba(255, 255, 255, 0)
+              border: none
+              border-radius: 0
+              &:hover
+                background-color: transparent
+              .selected-flag
+                background-color: none
+                &:hover
+                  background-color: transparent
+              .country-list
+                background-color: #fff
+                li
+                  text-align: left
+                  span
+                    color: #222222 !important
+                  &:hover, &.highlight
+                    background-color: #CDA036
+                  .flag
+                    width: 20px
+                  .dial-code
+                    color: #fff
+          button
+            margin: 30px auto
+            width: 200px
+            background-color: #499bea
+            background: filter-gradient(#499bea, #207ce5, horizontal)
+            background-image: linear-gradient(left, #499bea 0%, #207ce5 100%)
+            font-size: 0.8em
+            font-weight: 500
+        .contact-info1
+          margin: auto
+          text-align: center
+          opacity: 1
+          clear: both
+          i
+            color: #222222
+            margin: auto
+            font-size: 25px !important
+            transform: translateY(-10px)
+            display: none
+          p
+            padding-left: 10px
+            opacity: 1
+            font-weight: 400
+        .contact-social-mobile
+          display: none
+          text-align: center
+          margin-top: 20px
+          a
+            margin: 5px
+            i
+              color: rgba(255, 255, 255, 0.3)
+              font-size: 25px
+              margin-top: -10px
+
+@media (min-width: 1500px)
+  .projects-hero-carousel .container1
+    margin: 0
+
+@media (max-width: 550px)
+  .projects-hero-carousel
+    background-attachment: scroll
+    width: 100%
+    height: 110vh
+    .container1
+      .project-text
+        bottom: -15px
+        &.titleAr
+          bottom: -40px
+        h1
+          font-size: 5.5em !important
+      .form-projects
+        width: 100%
+        #thank-you
+          width: 100%
+          top: 30%
+          border: 2px solid #CDA036
+          a
+            margin: 10px
+        .contact-input1
+          width: 90%
+          margin: auto
+          top: 10% !important
+          transform: translateY(20px) !important
+          &.titleAr
+            top: 0
+
+@media (min-width: 551px) and (max-width: 992px)
+  .projects-hero-carousel
+    background-attachment: scroll
+    width: 100%
+    .container
+      bottom: 50px
+      height: 100px
+      &.titleAr
+        bottom: 80px
+      h1
+        font-size: 8.5em !important
+
+@media (min-width: 1115px) and (max-width: 1400px)
+  .projects-hero-carousel
+    height: 100vh
+
+@media (min-width: 1410px)
+  .projects-hero-carousel
+    height: 85vh
+
+/*# sourceMappingURL=Header.css.map

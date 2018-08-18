@@ -1,0 +1,55 @@
+.about-outter
+  position: relative
+  z-index: 30 !important
+  .intro-image
+    width: 50%
+    text-align: center
+    margin: auto
+    img
+      width: 100%
+      margin-top: 20px
+  .about
+    text-align: center
+    position: relative
+    z-index: 30 !important
+    width: 80vw
+    margin: auto
+    margin-bottom: 100px
+    p
+      font-family: "Nunito Sans", sans-serif
+      font-size: 1.5em
+      margin-top: 40px
+      &.titleAr
+        text-align: right
+        font-family: "Cairo", sans-serif !important
+
+@media (max-width: 992px)
+  .about-outter
+    margin-top: 0px !important
+    .about
+      h1
+        font-size: 3em
+        &::after
+          display: none !important
+        &::before
+          font-size: 1em !important
+      hr
+        width: 30%
+      p
+        text-align: left
+  .our-team .our-team-div
+    h1::after
+      display: none !important
+    hr
+      width: 30% !important
+
+@media (min-width: 1200px) and (max-width: 1440px)
+  .about-outter
+    margin-top: 70px !important
+    .about, .our-team .our-team-div
+      h1
+        font-size: 3em
+      hr
+        width: 20%
+
+/*# sourceMappingURL=Sections.css.map

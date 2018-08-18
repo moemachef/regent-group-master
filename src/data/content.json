@@ -1,0 +1,599 @@
+[
+  {
+    "lang": "en",
+    "page": {
+      "navbar": {
+        "class": "",
+        "home": "Home",
+        "projects": "Projects",
+        "services": "Services",
+        "about": "About",
+        "contact": "Contact",
+        "callus": "+90-506-116-2526"
+      },
+      "attention": {
+        "attention1": "Message us and we will",
+        "attention2": " answer all your questions",
+        "attentionbtn": "close"
+      },
+      "Home": {
+        "header": {
+          "class": "",
+          "classTitle": "",
+          "classSpan": "",
+          "titleMain1": "DREAM",
+          "titleMain2": " ",
+          "titleMain3": "HOME",
+          "titleSub": "FIND YOUR",
+          "home": "Home",
+          "projects": "Projects",
+          "services": "Services",
+          "about": "About",
+          "contact": "Contact"
+        },
+        "info": {
+          "classInfo": "",
+          "main": "Regent Group",
+          "submain":
+            "Regent Group combines experience with practical simplicity to provide to you the best options available in the market so you could buy the right home",
+          "investment": "Real Estate Investment",
+          "management": "Real Estate Management",
+          "company": "Company Establishment",
+          "airport": "Airport Pickups"
+        },
+        "ProjectsCarousel": {
+          "classTitle": "",
+          "title": "Projects",
+          "title2": "RELATED PROJECTS",
+          "btns": "",
+          "descriptionTitle": "Project Details",
+          "classDescriptionTitle": "",
+          "classprice": "",
+          "classDescriptionEn": "descriptionEn",
+          "classDescriptionAr": "",
+          "classEn": "classEn",
+          "classAr": "",
+          "classIcons": "",
+          "classIcons2": "right-icons",
+          "moreDetails": "More Details",
+          "askforhelp1": "Contact Me"
+        },
+        "Turkey": {
+          "classTitle": "",
+          "title": "TURKEY",
+          "paragraph":
+            "Turkey is a nation straddling eastern Europe and western Asia with cultural connections to ancient Greek, Persian, Roman, Byzantine and Ottoman empires. Cosmopolitan Istanbul, on the Bosphorus Strait, is home to the iconic Hagia Sophia, with its soaring dome and Christian mosaics, the massive 17th-century Blue Mosque and the circa-1460 Topkapı Palace, former home of sultans. Ankara is Turkey’s modern capital.",
+          "title2": "INVEST IN TURKEY",
+          "titleIcon1": "RETURN ON INVESTMENT",
+          "titleIcon2": "CITIZENSHIP",
+          "titleIcon3": "RESIDENCY",
+          "pIcon1":
+            "Turkey is one of the most important destinations for Real Estate investments.",
+          "pIcon2":
+            "Investing in Turkey allows you to apply for citizenship after several years.",
+          "pIcon3":
+            "Investing in Turkey allows you to apply for residency after several years."
+        },
+        "whyus": {
+          "title": "WHY CHOOSE US",
+          "classTitle": "",
+          "classIcon": "",
+          "class": "",
+          "professional": "More than 120 Projects",
+          "professionalText":
+            "Our skilled and dedicated team is ready around the clock to help & support you with anything you want and as a standard business practice they always preview homes as they become available to keep you apprised of market conditions as they evolve.",
+          "fast": "World's best luxury homes",
+          "fastText":
+            "Our promise is to take every single request as a priority and respond instantly, we also contact our clients regularly to let them know the status of their home buying or selling experience, and assure them of our continuous work and efforts on their behalf.",
+          "pricing": "Best Deals",
+          "pricingText":
+            "We all want value for our money, this something we are aware of, by negotiating contracted rates with the developers we can get our customers the best prices that meet their requirements and budget.",
+          "trust": "Top locations",
+          "trustText":
+            "Don’t take our word for it, see what our customers have said about us! We actively encourage customers to provide feedback on the advice, service and information we have provided to them, please visit testimonials link and read clearly. ",
+          "service": "Best prices",
+          "serviceText":
+            "As leading real estate professionals in Turkey we’ll do the leg work, keeping you up to date with new listings and conditions as they impact the market, we know the industry, communities, present market condition & the most effective way to fulfil your real estate needs.",
+          "passion": "Investment experts",
+          "passionText":
+            "It is our goal to include you in our long list of satisfied customers, referrals and friends. Our hope is that we will help you make your most beneficial real estate transaction today, and that you will call on us again tomorrow for any other real estate need."
+        },
+        "testimonials": {
+          "title": "TESTIMONIALS",
+          "classAr": "",
+          "first":
+            "My experience has been unique with this specialized company. They have given me clear information and valuable informationWhich enabled me to buy a distinctive propertyI wish this company success and a prosperous future.",
+          "firstName": "Abdullah Saadi",
+          "second":
+            "One of the best real estate companies in the Middle East and Europe which you can trust",
+          "secondName": "Samer Manla",
+          "third":
+            "Cayan group is a professional real estate agency, with an outstanding team, honest and well organized. I had the pleasure of dealing with cayan group and it was a very professional atmosphere, they put the interest of the client above everything else.",
+          "thirdName": "Walid Elnozahy"
+        }
+      },
+      "projects": {
+        "title": "Projects",
+        "classTitle": "",
+        "getInTouch": "Contact us for a free consultancy",
+        "getInTouchP":
+          "please fill the form and we will contact you as soon as possible.",
+        "name": "Full Name",
+        "email": "Email",
+        "number": "Phone Number",
+        "classInput": "",
+        "send": "send",
+        "thankyouTitle": "Thank You",
+        "thankyoup": "We will contact you as soon as possible",
+        "thankyoubtn1": "Browse other projects",
+        "thankyoubtn2": "close"
+      },
+      "services": {
+        "classTitle": "",
+        "classP": "",
+        "title": "OUR SERVICES",
+        "investment": "Luxury Living",
+        "investmentText":
+          "Luxury alone is never enough, unless it is companioned by comfort, spaciousness and accessibility. Not every luxury estate is the right luxury for you, because every person defines luxury according to their own understanding.",
+        "management": "THE MOST PROMISING INVESTMENT",
+        "managementText":
+          "Turkey has become a hub that connects 4 continents together. Istanbul alone is geographically located at the heart of the map with more than 48 Capital cities accessible in less than 2 hours of flight.",
+        "company": "THE BEST PLACE TO LIVE",
+        "companyText":
+          "So you have been watching some Turkish TV Shows, you love Turkey as a country, you like the food ? Or you enjoy the weather. We at Regent understand you pretty well.",
+        "airport": "THE GREATEST BUYING OPPORTUNITY",
+        "airportText":
+          "Planning on buying a home, but you think that your budget is pretty low? Regent has a great solution for you."
+      },
+
+      "about": {
+        "title": "About Us",
+        "classTitle": "",
+        "description":
+          "Regent Group combines experience with practical simplicity to provide to you the best options available in the market so you could buy the right home",
+        "description2":
+          "With more than 12 years of experience, Regent Group plans to revolutionize  the real estate industry by providing our clients with the best possible option for their investment, living, price opportunity and luxury",
+        "ourteam": "OUR TEAM",
+        "team1": "IKRAM CHAFI",
+        "team2": "FADI BOUZ",
+        "team3": "MOHAMMED JLILATI",
+        "callcenter": "CALL CENTER",
+        "headofsales": "HEAD OF SALES",
+        "sales": "SALES"
+      },
+      "turkey": {
+        "titleResidency": "RESIDENCY IN TURKEY",
+        "titlecitizenship": "CITIZENSHIP IN TURKEY",
+        "titlereturnoninvestment": "RETURN ON INVESTMENT",
+        "classTitle": "",
+        "classText": "",
+        "classImage": "",
+        "source": "Source",
+        "paragraphResidency1": "1. Touristic Residency",
+        "paragraphResidency1_1":
+          "Is granted permission to stay in Turkey for a year – renewable – it is granted to applicants who hold passports still valid and have a validity period of more than 14 months for those who apply for a one-year residence, meaning that those who have less than that passport is granted a one-year residence, For a period of less than two months in the validity of his passport.",
+
+        "paragraphcResidency2": "2.Investor’s Residence:",
+        "paragraphResidency2_1":
+          "And is given to businessmen who invest money in Turkey after they establish companies according to legal rules and obtain permission to work. This type of residence allows the owner to apply for Turkish citizenship after five years of permanent residence without interruption.",
+        "paragraphResidency3": "3.Establishment of work:",
+        "paragraphResidency3_1":
+          "Which is granted to foreigners who are employed in Turkish companies or registered in Turkey where the company represented by its director or its chairman obtains a work permit from the Ministry of Labor for the foreigner to be employed and then to apply for residence. It should be noted that the company has to appoint five Turks in exchange for the employment of one foreigner, and excludes the employment of Syrian foreign companies of this condition in the sense that the employment is not considered a foreign employment in appreciation of the conditions of the Syrians.",
+        "paragraphResidency4": "4.Establishing Ownership:",
+        "paragraphResidency4_1":
+          "It is an up-to-date residence permit granted for a full year to every foreigner and to his wife and children. He is entitled to own property in Turkey and own one or more properties in it and is renewed annually as long as he remains the owner of this property.",
+        "paragraphcitizenship1":
+          "Turkey has made changes to its citizenship laws to encourage investment, new regulations published Thursday have revealed.",
+        "paragraphcitizenship2":
+          "Regulations in Turkey’s Official Gazette state foreigners who bring fixed capital investments of at least $2 million or own real estate in Turkey worth a minimum $1 million with the special condition of not selling it for at least three years will be able to access Turkish citizenship.",
+        "paragraphcitizenship3":
+          "The regulation also covers foreigners who deposit a minimum of $3 million in Turkish banks on condition of not withdrawing it for three years. A similar regulation applies to those foreign investors who hold government-issued bonds worth at least $3 million which are not diversified for three years.",
+        "paragraphcitizenship4":
+          "Foreigners who generate jobs for 100 people also will be able take Turkish citizenship, the gazette said.",
+        "paragraphreturnoninvestment1":
+          "Turkey’s economy has performed remarkably well with its steady growth over the past 14 years. A sound macroeconomic strategy, prudent fiscal policies, and major structural reforms have all contributed to the integration of Turkey’s economy into the globalized world while also transforming the country into one of the major recipients of FDI in its region.",
+        "paragraphreturnoninvestment2":
+          "These reforms have increased the role of the private sector in Turkey’s economy, enhanced the efficiency and resiliency of the financial sector, and placed public finance on a more solid foundation. These reforms strengthened the macroeconomic fundamentals of the country, allowing the economy to grow at an annual average real GDP growth rate of 5.6 percent from 2003 to 2016.",
+        "paragraphreturnoninvestment3":
+          "Turkey’s impressive economic performance over the past 14 years has encouraged experts and international institutions to make confident projections about Turkey’s economic future. For example, according to the OECD, Turkey is expected to be one of the fastest growing economies among OECD members during 2015-2025, with an annual average growth rate of 4.9 percent.",
+        "paragraphreturnoninvestment4":
+          "Together with stable economic growth, Turkey has also reined in its public finances; the EU-defined general government nominal debt stock fell to 28.3 percent in 2016 from 72.1 percent in 2002. Turkey has been meeting the “EU’s 60 percent Maastricht criteria” for public debt stock since 2004. Similarly, during 2003-2016, the budget deficit decreased from more than 10 percent to less than 2 percent as a ratio to GDP, which is one of the EU Maastricht criteria for the budget balance."
+      },
+      "eachProject": {
+        "askforhelp": "ASK ME FOR HELP!",
+        "classInfoEn": "infoTextEn",
+        "classInfoAr": "",
+        "location": "Location",
+        "delivery": "Delivery",
+        "type": "Type",
+        "area": "Area",
+        "installments": "Installments",
+        "status": "Payment",
+        "classTitle": "",
+        "overview": "OVERVIEW",
+        "starting": "STARTING FROM",
+        "photo": "PHOTO TOUR",
+        "apartmentsPhotos": "APARTMENTS PHOTO TOUR",
+        "privileges": "PRIVILEGES",
+        "parks": "GREEN AREAS",
+        "family": "FAMILY FRIENDLY",
+        "pool": "SWIMMIN POOL",
+        "security": "SECURITY",
+        "cafes": "CAFES",
+        "resturants": "RESTURANTS",
+        "fitness": "FITNESS CENTER",
+        "trails": "HIKING TRAILS",
+        "plans": "FLOORPLANS & APARTMENT TYPES",
+        "button": "ENQUIRE ABOUT THIS APARTMENT",
+        "nearBy": "LOCATION & NEARBY PLACES",
+        "ataturk": "ATATURK AIRPORT",
+        "airport": "NEW AIRPORT",
+        "taksim": "TAKSIM",
+        "titleRelated": "RELATED PROJECTS",
+        "places": "NEARBY PLACES",
+        "metro": "METRO",
+        "taksim": "TAKSIM",
+        "sultan": "SULTAN AHMED",
+        "ataturk": "ATATURK AIRPORT",
+        "metrobus": "METROBUS",
+        "newairport": "NEW AIRPORT",
+        "tem": "TEM HIGHWAY",
+        "beach": "BEACHES",
+        "ad1":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/En/website-ads.jpg",
+        "ad2":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/En/website-ads1.jpg",
+        "ad3":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/En/website-ads2.jpg",
+        "ad4":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/En/website-ads3.jpg",
+        "ad5":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/En/website-ads4.jpg",
+        "ad6":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/En/website-ads5.jpg",
+
+        "ad22":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531407006/other/ads-big/website-ads2.jpg",
+        "ad33":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531407006/other/ads-big/website-ads3.jpg",
+        "ad44":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531407006/other/ads-big/website-ads4.jpg",
+        "ad55":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531407006/other/ads-big/website-ads5.jpg",
+        "ad66":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531407006/other/ads-big/website-ads6.jpg"
+      },
+      "getintouch": {
+        "classTitle": "",
+        "title": "CONTACT US",
+        "getInTouch": "Get in Touch",
+        "getInTouchP":
+          "please fill the form and we will contact you during work hours.",
+        "classInput": "",
+        "name": "Full Name",
+        "email": "Email",
+        "number": "Phone Number",
+        "operator": "FADI BOUZ",
+        "operator1": "HEAD OF SALES",
+        "thankyouTitle": "Thank You",
+        "thankyoup": "We will contact you as soon as possible",
+        "thankyoubtn1": "Browse other projects",
+        "thankyoubtn2": "close",
+        "newTitle": "Free Consultation"
+      },
+      "footer": {
+        "classNav": "",
+        "home": "HOME",
+        "projects": "PROJECTS",
+        "services": "SERVICES",
+        "about": "ABOUT",
+        "contact": "CONTACT",
+        "copyrights": "© Regent Group 2018"
+      },
+      "content": {
+        "classTitle": "",
+        "title": "Why Contact Us",
+        "paragraph":
+          "We run a business built on trust which can only be achieved through clear communication and experienced support, At Cayan you always talk to a human ready to serve you, no chatbots replies! you’re not going to hit a ridiculously long phone menu when you call us and your email is defiantly not going to the inbox abyss, never seen or heard from again. We deal with every call, message & email in a professional way and all are considered top priority , we provide the exceptional service that we’d like to experience ourselves."
+      }
+    }
+  },
+  {
+    "lang": "ar",
+    "page": {
+      "navbar": {
+        "class": "navbarAr",
+        "home": "الرئيسية",
+        "projects": "المشاريع",
+        "services": "الخدمات",
+        "about": "من نحن",
+        "contact": "تواصل معنا",
+        "callus": "+90-506-116-2526"
+      },
+
+      "attention": {
+        "attention1": "راسلنا وسنقوم بالاجابة",
+        "attention2": "على جميع اسألتك",
+        "attentionbtn": "اغلاق"
+      },
+      "Home": {
+        "header": {
+          "class": "headerNav",
+          "classTitle": "titleAr",
+          "classSpan": "spanAr",
+          "titleMain1": "احلامك",
+          "titleMain2": " في ",
+          "titleMain3": "تركيا",
+          "titleSub": "امتلك بيت",
+          "home": "الرئيسية",
+          "projects": "المشاريع",
+          "services": "الخدمات",
+          "about": "من نحن",
+          "contact": "تواصل معنا"
+        },
+        "info": {
+          "classInfo": "infoAr",
+          "main": "ريجينت جروب",
+          "submain":
+            "ريجينت جروب تجمع ما بين الخبرة و الحلول العملية لتمنحكم أفضل الخيارات المتاحة في السوق لكي تحصلون علي منزل أحلامكم",
+          "investment": "استثمار عقاري",
+          "management": "ادارة العقارات",
+          "company": "انشاء شركات",
+          "airport": "خدمات المطار"
+        },
+        "ProjectsCarousel": {
+          "classTitle": "carouselTitleAr",
+          "title": "المشاريع",
+          "btns": "btnAr",
+          "descriptionTitle": "تفاصيل العقار",
+          "classDescriptionTitle": "arabicTitle right",
+          "classprice": "priceClass ",
+          "classDescriptionEn": "",
+          "classDescriptionAr": "descriptionAr",
+          "classEn": "",
+          "classAr": "classAr",
+          "classIcons1": "iconsAr right",
+          "classIcons2": "iconsAr left",
+          "classIconsI": "right",
+          "moreDetails": "تفاصيل اكثر",
+          "askforhelp1": "تواصل معي"
+        },
+        "Turkey": {
+          "classTitle": "titleAr",
+          "title": "تركيا جنة الارض",
+          "paragraph":
+            "تركيا من الدول الواقعة عند نقطة التقاء كل من قارة آسيا وقارة أوروبا، وهي على مسافة قريبة من قارة أفريقيا، وهذا الموقع الاستراتيجي المتميز جعل منها دولة ذات أهمية كبيرة، وهي محاطة بالعديد من الدول أهمّها اليونان، وبلغاريا، وسوريا، والعراق، وإيران، وأرمينيا، وجورجيا، وأذربيجان التي لها حدود مع نهشيوان، كما تضم العديد من المدن التي لها أهمية كبيرة كأنقرة وهي العاصمة الرسمية لها، واسطنبول، وأنطاكيا، وأزمير، وأنطاليا، وطرابزون، وكونيا، وتعدّ تركيا من أهم الدول السياحية على مستوى العالم ككل، فهي تضم الكثير من الأماكن السياحية ذات الطبيعة الخلابة والجميلة، والتي تجذب السائحين من مختلف أنحاء العالم.",
+          "title2": "الاستثمار في تركيا",
+          "titleIcon1": "عائد استثماري",
+          "titleIcon2": "احصل على الجنسية",
+          "titleIcon3": "احصل على اقامة",
+          "pIcon1":
+            "الاستثمار العقاري في تركيا يحقق عوائد سنوية 8 % مع 20 يوم سكن للمستثمر",
+          "pIcon2": "الاستثمار في تركيا يتيح لك فرصة التقديم على الجنسية",
+          "pIcon3": "الاستثمار في تركيا يتيح لك فرصة التقديم على الاقامة"
+        },
+        "whyus": {
+          "title": "لماذا نحن؟",
+          "classTitle": "whyusTitle",
+          "classIcon": "right",
+          "classText": "left whyusAr",
+          "professional": "أكثر من 120 مشروع",
+          "professionalText":
+            "فريقنا المتمرس جاهز على مدار الساعة لمساعدتك ودعمك في أي شيء تحتاجه و من إجراءات العمل الأساسية لدينا يقوم فريقنا دائماً بمعاينة المشاريع عندما تصبح متوفرة لإبقائكم دائماً على علمٍ بمستجدات ظروف السوق أثناء تطورها.",
+          "fast": "أفضل المشروعات الفاخرة",
+          "fastText":
+            "نتعهد بأن نأخذ كل طلب على حدة كأولوية لدينا ونستجيب على الفور ، كما أننا نتواصل مع عملائنا بشكل منتظم لإطلاعهم على حالة البيع أو الشراء لعقارهم ، ونؤكد لهم عملنا المتواصل وجهودنا نيابةً عنهم.",
+          "pricing": "أفضل العروض",
+          "pricingText":
+            "جميعنا نطمح للحصول على أشياء قيمة مقابل أموالنا و بأسعارٍ معقولة وهذا مفهوم ندركه جيداً في كيان ، من خلال التفاوض على الأسعار التعاقدية مع المطورين العقاريين يمكننا دائماً أن نحصل لعملائنا على أفضل الأسعار التي تلبي متطلباتهم وميزانيتهم على حدٍ سواء.",
+          "trust": "أفضل المواقع",
+          "trustText":
+            "لا تسمع رأينا فقط ، انظرماذا قال عملاؤنا عنا! نحن نشجع جميع العملاء على تقديم ملاحظاتهم حول المعلومات والنصائح إلى جانب الخدمات التي قدمناها لهم ، يرجى زيارة رابط آراء العملاء والقراءة بوضوح.",
+          "service": "أفضل الأسعار",
+          "serviceText":
+            "بصفتنا رائدين في مجال العقارات في تركيا ، سنقوم بالجهد المطلوب لإبقاء عملاءنا على إطلاع دائم بالقوائم الجديدة والظروف التي تؤثر على السوق ، نعرف صناعة العقارات جيداً ، وحالة السوق الحالية ، والطريقة الأكثر فاعلية لتلبية احتياجاتكم العقارية.",
+          "passion": "خبراء في الأستثمار",
+          "passionText":
+            "هدفنا الأساسي هو أن نضيفكم إلى قائمتنا الطويلة من العملاء الراضين و الأصدقاء الذين يتحدثون عنا بإيجابية. نأمل دائماً أن نساعد عملاءنا للإستفادة من صفقاتهم العقارية بأكبر قدرٍ من الإمكان و أن يتصلوا بنا مستقبلاً لأي خدمة عقارية أخرى."
+        },
+        "testimonials": {
+          "title": "أراء العملاء",
+          "classAr": "textAr",
+          "first":
+            " تجربتي فعلا مميزه مع هذه الشركه المتخصصه فقد قدموا لي المعلومات الواضحه والنصاءح القيمه مما مكنني من شراء عقار مميز اتمنى لهذه الشركه التوفيق ومستقبل زاهرا.",
+          "firstName": "عبدالله سعدي",
+          "second":
+            "عنوان للرقي والأمانة  بوركت جهودكم و نسأل الله لكم المزيد من التألق والنجاح",
+          "secondName": "سمير منلا",
+          "third":
+            "مجموعة كيان هي مجموعة عقارية احترافية ، مع فريق متميز ، صادق ومنظم جدا. كان من دواعي سروري التعامل مع مجموعة كيان العقارية وكان جو احترافي للغاية ، وضعوا مصلحة العميل فوق كل شيء آخر.",
+          "thirdName": "وليد النزهي"
+        }
+      },
+
+      "projects": {
+        "title": "المشاريع",
+        "classTitle": "titleAr",
+
+        "getInTouch": "املاء البيانات لاستشارة مجانية",
+        "getInTouchP": "من فضلك املأ بياناتك وسوف نقوم بالتواصل معك",
+        "name": "الاسم",
+        "email": "الايميل",
+        "number": "رقم الهاتف",
+        "classInput": "inputAr right",
+        "send": "ارسال",
+        "thankyouTitle": "شكرا لك",
+        "thankyoup": "سنقوم بالتواصل معك في اقرب وقت",
+        "thankyoubtn1": "تصفح مشاريع اخرى",
+        "thankyoubtn2": "اغلاق"
+      },
+      "services": {
+        "classTitle": "servicesTitleAr",
+        "classP": "right text-direction",
+        "title": "خدماتنا",
+        "investment": "المعيشة الفاخرة",
+        "investmentText":
+          "الفخامة وحدها لا تكفي أبداً ، ما لم تكن مرافقة بالراحة والرحابة وسهولة الوصول. ليست كل العقارات الفاخرة هي الرفاهية المناسبة لك ، لأن كل شخص يعرف الرفاهية وفقا لفهمه الخاص.",
+        "management": "الاستثمار الواعد",
+        "managementText":
+          "أصبحت تركيا مركزًا يربط بين أربع قارات. تقع اسطنبول بمفردها جغرافيا في قلب الخريطة حيث يمكن الوصول إلى أكثر من 48 مدينة في أقل من ساعتين من الرحلة.",
+        "company": "أفضل الأماكن للعيش",
+        "companyText":
+          "إذا كنت تشاهد بعض البرامج التلفزيونية التركية ، فأنت تحب تركيا كدولة ، هل تحب الطعام؟ أو تستمتع بالطقس. نحن في ريجنت نفهمك جيدًا.",
+        "airport": "أعظم فرصة شراء",
+        "airportText":
+          "هل تخطط لشراء منزل ، لكنك تعتقد أن ميزانيتك منخفضة للغاية؟ ريجنت لديه حل رائع بالنسبة لك."
+      },
+
+      "about": {
+        "title": "من نحن",
+        "classTitle": "titleAr",
+        "description":
+          "ريجينت جروب تجمع ما بين الخبرة و الحلول العملية لتمنحكم أفضل الخيارات المتاحة في السوق لكي تحصلون علي منزل أحلامكم",
+        "description2":
+          "مع أكثر من 12 سنة من الخبرة ، ريجينت جروب تعمل علي تطوير سوق العقارات عبر تزويد عملائها بأفضل الخيارات للأستثمار و المعيشة و أفضل العروض و الأسعار",
+        "ourteam": "فريقنا",
+        "team1": "اكرام الشافي",
+        "team2": "فادي بوظ",
+        "team3": "محمد جليلاتي",
+        "callcenter": "خدمة العملاء",
+        "headofsales": "مدير المبيعات",
+        "sales": "المبيعات"
+      },
+      "turkey": {
+        "titleResidency": "الاقامة في تركيا",
+        "titlecitizenship": "الجنسية التركية",
+        "titlereturnoninvestment": "عائد استثماري ضخم",
+        "classTitle": "titleAr",
+        "classText": "textAr",
+        "classImage": "imageAr",
+        "source": "المصدر",
+        "paragraphResidency1": "اولا – الإقامة السياحية :",
+        "paragraphResidency1_1":
+          "هــي اذن بالاقامــة فــي تركيــا لمــدة عــام – قابلــة للتجديــد – وهــي تمنــح لطالبيهــا ممــن يحملــون جــوازات ســفر ما تــزال ســارية المفعــول وفيهــا مــدة صالحيــة تتجــاوز 14 شــهرا لمــن يطلــب الاقامــة لمــدة ســنة ، بمعنــى أن مــن كان بجــواز ســفره أقــل مــن ذلــك ال يمنــح إقامــة مدتهــا ســنة بــل إقامــة لمــدة تقــل عــن المــدة المتبقيــة بصالحيــة جــواز ســفره بشــهرين .",
+        "paragraphResidency2": "ثانيا – إقامة المستثمر :",
+        "paragraphResidency2_1":
+          "وتمنــح لرجــال الاعمــال ممــن يســتثمرون أمــوال داخــل تركيــا بعــد أن يؤسســوا شــركات وفــق الاصــول القانونيــة والحصــول على اذن العمــل . و هــذا النــوع مــن الإقامــات يتيــح لصاحبهــا الحــق فــي التقــدم لطلــب الحصــول علــى الجنســية التركيــة بعــد انقضــاء خمــس ســنوات علــى الإقامــة الدائمــة الغيــر منقطعــة .",
+        "paragraphResidency3": "ثالثا – إقامة العمل :",
+        "paragraphResidency3_1":
+          "وهــي إقامــة تمنــح لألجانــب الموظفيــن فــي شــركات تركيــة أو مســجلة فــي تركيــا حيــث تقــوم الشــركة ممثلــة بمديرهــا أو برئيــس مجلــس إدارتهــا بالحصــول علــى اذن عمــل مــن وزارة العمــل للاجنبــي المــراد توظيفــه ومــن ثــم طلــب الاقامــة لــه . وتجــدر الاشــارة إلــى أنــه يتعيــن علــى الشــركة أن تعيــن خمســة أتــراك لديها مقابــل توظيــف أجنبــي واحــد ، ويســتثنى توظيــف الســوري لــدى الشــركات الاجنبيــة مــن هــذا الشــرط بمعنــى أن توظيفــه لا يعتبــر توظيفــا ألجنبــي وذلــك تقديــرا لظــروف الســوريين .",
+        "paragraphResidency4": "رابعا : إقامة التملّك :",
+        "paragraphResidency4_1":
+          "وهــي إقامــة مســتحدثة تمنــح لمــدة عــام كامــل لــكل أجنبــي و لزوجتــه وأوالده يحــق لــه التملــك فــي تركيــا وتملّــك عقــارا أو أكثــر فيهــا وهــي تجــدد ســنويا طالمــا بقــي مالــكا لهــذا العقــار .",
+
+        "paragraphcitizenship1":
+          " أدخلت تركيا تعديلات على قوانين الجنسية لتشجيع الاستثمار ، وفقا للوائح الجديدة التي نشرت الخميس",
+        "paragraphcitizenship2":
+          "تنص اللوائح الرسمية في الجريدة الرسمية التركية على أن الأجانب الذين يجلبون استثمارات رأسمالية ثابتة بما لا يقل عن مليوني دولار أو يمتلكون عقارات في تركيا بقيمة لا تقل عن مليون دولار مع شرط خاص بعدم بيعها لمدة ثلاث سنوات على الأقل سيكونون قادرين على الحصول على الجنسية التركية.",
+        "paragraphcitizenship3":
+          "كما تغطي اللائحة الأجانب الذين يودعون ما لا يقل عن 3 ملايين دولار في البنوك التركية بشرط عدم سحبها لمدة ثلاث سنوات. وتنطبق لائحة مماثلة على المستثمرين الأجانب الذين يحملون سندات حكومية بقيمة لا تقل عن 3 ملايين دولار والتي لا يتم تنويعها لمدة ثلاث سنوات.",
+        "paragraphcitizenship4":
+          "وقالت الجريدة إن الأجانب الذين يولدون وظائف ل 100 شخص سيكونون قادرين على الحصول على الجنسية التركية.",
+        "paragraphreturnoninvestment1":
+          "حقق الاقتصاد التركي أداءً مبهرًا بفضل استقرار معدل النمو على مدى الأربعة عشر عامًا الماضية. وقد أسهمت استراتيجية الاقتصاد الكلي والسياسات المالية الرشيدة والإصلاحات الهيكلية الرئيسية في اندماج الاقتصاد التركي في عالم تسوده العولمة في الوقت الذي تحولت فيه البلاد إلى وجهة رئيسية في المنطقة التي تقع بها لتدفق الاستثمار الأجنبي المباشر.",
+        "paragraphreturnoninvestment2":
+          "وقد أدت تلك الإصلاحات إلى زيادة الدور الذي يلعبه القطاع الخاص في الاقتصاد التركي، وتعزيز كفاءة القطاع المالي وقدرته على الصمود أمام الأزمات، وإرساء المالية العامة للدولة على أسس أكثر رسوخًا. كما وطدت تلك الإصلاحات أساسيات الاقتصاد الكلي للدولة، مما أتاح الفرصة لنمو الاقتصاد بمعدل سنوي لنمو الناتج المحلي الإجمالي الحقيقي بلغ في المتوسط 5.6 في المئة في الفترة من عام 2003 حتى 2016.",
+        "paragraphreturnoninvestment3":
+          "كان الأداء المبهر للاقتصاد التركي على مدى الأربعة عشر عامًا الماضية قد شجع الخبراء والمؤسسات الدولية على الخروج بتوقعات تعكس الثقة في نجاح الاقتصاد التركي في المستقبل. فعلى سبيل المثال، ووفقًا لمنظمة التعاون والتنمية في الميدان الاقتصادي، تشير التوقعات إلى تميز تركيا بأحد الاقتصاديات الأسرع نموًا بين الدول الأعضاء في منظمة التعاون والتنمية في الميدان الاقتصادي في الفترة 2015-2025، بفضل بلوغ متوسط المعدل السنوي للنمو بها نسبة 4.9 في المئة.",
+        "paragraphreturnoninvestment4":
+          "وبالإضافة إلى ما حققته تركيا من استقرار في النمو الاقتصادي، فقد استطاعت التحكم في موارد المالية العامة المتاحة لها؛ إذ انخفضت القيمة الاسمية لإجمالي الدين الحكومي العام وفقًا لما حدده الاتحاد الأوربي إلى 28.3 في المئة في عام2016 بعدما كان 72.1 في المئة في عام 2002. وقد نجحت تركيا منذ عام 2004 في تحقيق المعايير التي تم تحديدها باتفاقية ماستريخت المؤسِّسة للاتحاد الأوربي والتي تفرض عدم تجاوز نسبة 60 في المئة للمديونية العمومية. وبالمثل، انخفض عجز الموازنة في الفترة 2003-2016 من نسبة تزيد عن 10 في المئة ليصل إلى نسبة أقل من 2 في المئة بالنسبة لإجمالي الناتج المحلي، حيث يلبي ذلك أحد معايير اتفاقية ماستريخت المؤسِّسة للاتحاد الأوربي فيما يتعلق بالموازنة العامة."
+      },
+      "eachProject": {
+        "askforhelp": "تواصل معي",
+        "classInfoEn": "",
+        "classInfoAr": "infoTextAr",
+        "location": "الموقع",
+        "delivery": "التسليم",
+        "type": "النوع",
+        "area": "المساحة",
+        "installments": "التقسيط",
+        "status": "الدفع",
+        "classTitle": "titleAr",
+        "overview": "تفاصيل عن المشروع",
+        "starting": "ابتداء من",
+        "photo": "صور المشروع",
+        "apartmentsPhotos": "صور الشقق",
+        "privileges": "مميزات المشروع",
+        "parks": "مساحات خضراء",
+        "family": "مناسب للعائلات",
+        "pool": "حوض سباحة",
+        "security": "امن",
+        "cafes": "كافيهات",
+        "resturants": "مطاعم",
+        "fitness": "مركز لياقة",
+        "trails": "ممشى",
+        "plans": "انواع الشقق والمساحات",
+        "button": "اسال عن المشروع",
+        "nearBy": "الموقع والاماكن القريبة",
+        "ataturk": "مطار اتاتورك",
+        "airport": "المطار الجديد",
+        "taksim": "تقسيم",
+        "titleRelated": "المشاريع المشابهة",
+        "places": "الاماكن القريبة",
+        "metro": "مترو",
+        "taksim": "ميدان تقسيم",
+        "sultan": "السلطان احمد",
+        "ataturk": "مطار اتاتورك",
+        "metrobus": "متروباص",
+        "newairport": "المطار الجديد",
+        "tem": " السريع TEM طريق ال",
+        "beach": "شاطئ",
+        "ad1":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/website-ads.jpg",
+        "ad2":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/website-ads1.jpg",
+        "ad3":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/website-ads2.jpg",
+        "ad4":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/website-ads3.jpg",
+        "ad5":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/website-ads4.jpg",
+        "ad6":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531404769/other/ads/website-ads5.jpg",
+
+        "ad22":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531407006/other/ads-big/ar/website-ads2.jpg",
+        "ad33":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531407006/other/ads-big/ar/website-ads3.jpg",
+        "ad44":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531407006/other/ads-big/ar/website-ads4.jpg",
+        "ad55":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531407006/other/ads-big/ar/website-ads5.jpg",
+        "ad66":
+          "https://res.cloudinary.com/dd5e5iszi/image/upload/v1531407006/other/ads-big/ar/website-ads6.jpg"
+      },
+      "getintouch": {
+        "classTitle": "titleAr",
+        "title": "تواصل معنا",
+        "getInTouch": "اتصل بنا",
+        "getInTouchP": "من فضلك املأ بياناتك وسوف نقوم بالتواصل معك",
+        "classInput": "inputAr right",
+        "name": "الاسم",
+        "email": "الايميل",
+        "number": "رقم الهاتف",
+        "operator": "فادي بوظ",
+        "operator1": "مدير المبيعات",
+        "thankyouTitle": "شكرا لك",
+        "thankyoup": "سنقوم بالتواصل معك في اقرب وقت",
+        "thankyoubtn1": "تصفح مشاريع اخرى",
+        "thankyoubtn2": "اغلاق",
+        "newTitle": "استشارة مجانية"
+      },
+      "footer": {
+        "classNav": "footerNavAr",
+        "home": "الرئيسية",
+        "projects": "المشاريع",
+        "services": "الخدمات",
+        "about": "من نحن",
+        "contact": "تواصل معنا",
+        "copyrights": "© جميع الحقوق محفوظة ريجينت جروب 2018"
+      },
+      "content": {
+        "classTitle": "titleAr",
+        "title": "تواصل معنا",
+        "paragraph":
+          "نحن في كيان نديرعملاً بناؤه الثقة و نؤمن بأن ذلك يتحقق فقط من خلال التواصل الواضح و الدعم الاحترافي، في مجموعة كيان أنت تتحدث دائماً إلى عنصر بشري جاهز لخدمتك ، لا مجيب آلي و رسائل مبرمجة، لن تضغط على قائمة طويلة من الأرقام عندما تتواصل معنا و بالتأكيد لن يذهب بريدك إلى أدنى صندوق البريد الوارد لدينا بدون رد، نتعامل مع كل بريد و رسالة و اتصال بكامل الإحترافية و نعتبر جميع الإتصالات أولوية لدينا، نحن في كيان نقدم خدمة متميزة نتمناها لأنفسنا في أماكن أخرى."
+      }
+    }
+  }
+]

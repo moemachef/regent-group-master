@@ -1,0 +1,78 @@
+.plan {
+  transform: translateY(50px);
+  height: 100vh;
+}
+.plan .left {
+  background-color: #0e1f32;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+.plan .left .plan-image {
+  width: 100%;
+}
+.plan .left .plan-image img {
+  max-width: 70%;
+}
+.plan .right {
+  background-color: #b39951;
+  height: 100vh;
+  padding: 0;
+}
+.plan .right ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  text-align: center;
+}
+.plan .right ul li {
+  margin: atuo;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 10px 0;
+  transition: all 0.3s ease-in;
+}
+.plan .right ul li.react-tabs__tab--selected {
+  background-color: #0e1f32;
+}
+.plan .right ul li::hover {
+  color: red;
+  background-color: red !important;
+}
+
+@media (max-width: 922px) {
+  .plan {
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .plan .react-tabs {
+    display: flex;
+
+    flex-direction: column-reverse;
+  }
+  .plan .react-tabs .left,
+  .plan .react-tabs .right {
+    height: auto;
+  }
+  .plan .react-tabs .left {
+    padding: 20px 10px;
+  }
+  .plan .react-tabs .left .price h3,
+  .plan .react-tabs .left .area h3 {
+    font-size: 2em;
+  }
+  .plan .react-tabs .right {
+    height: auto !important;
+  }
+  .plan .react-tabs .right ul {
+    height: auto;
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=Plans.css.map */

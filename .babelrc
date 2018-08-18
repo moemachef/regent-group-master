@@ -1,0 +1,23 @@
+{
+  test: /\.js$/,
+  presets: [
+    [
+      'env',
+      {
+        exclude: [
+          'transform-regenerator'
+        ],
+        loose: true,
+        modules: false,
+        targets: {
+          browsers: [
+            '>1%'
+          ]
+        },
+        useBuiltIns: true
+      }
+    ]
+  ],
+ sourceMaps: false,
+ compact: false
+}

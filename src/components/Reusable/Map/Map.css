@@ -1,0 +1,11 @@
+.map {
+  height: 520px;
+  width: 100%;
+  width: 90%;
+  position: relative;
+  overflow: visible;
+  transform: translateY(10%);
+  margin: 0;
+  padding: 0 !important; }
+
+/*# sourceMappingURL=Map.css.map */

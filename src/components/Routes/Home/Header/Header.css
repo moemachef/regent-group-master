@@ -1,0 +1,281 @@
+.home-page-header {
+  height: 100vh;
+  position: relative;
+  background-image: url("http://res.cloudinary.com/dgfb9ldfx/image/upload/v1531999292/regent-react-real-estate-app/logo_white_version.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  background-attachment: fixed; }
+  .home-page-header::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, rgba(0, 47, 75, 0.5), rgba(220, 66, 37, 0.5)), url("http://res.cloudinary.com/dgfb9ldfx/image/upload/v1531992481/regent-react-real-estate-app/foreigners-real-estate-sector.jpg");
+    background-repeat: repeat-x;
+    background-position-x: top left;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    z-index: -20;
+    animation-name: moveSky;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1; }
+
+@keyframes moveSky {
+  from {
+    background-position-x: 0; }
+  to {
+    background-position-x: 100%; } }
+
+/* .home-page-header::after {
+ *  display: none;
+ *  position: absolute;
+ *  left: 0;
+ *  z-index: 1;
+ *  margin: 0;
+ *  content: '';
+ *  width: 100%;
+ *  height: 100%;
+ *  background-color: rgba(0, 0, 0, 0.2);
+ *} */
+/* .home-page-header .language-home {
+ *  position: relative;
+ *  z-index: 20;
+ *}
+ *.home-page-header .language-home li {
+ *  margin: 10px;
+ *}
+ *.home-page-header .language-home li p {
+ *  color: #fff;
+ *}
+ *.home-page-header .language-home li.dropdown-button {
+ *  color: #fff;
+ *  cursor: pointer;
+ *}
+ *.home-page-header .language-home li.dropdown-button a {
+ *  color: #fff;
+ *}
+ *.home-page-header .home-page-nav {
+ *  background-color: #222222;
+ *  position: absolute;
+ *  z-index: 3;
+ *  bottom: 0;
+ *  width: 80%;
+ *  text-align: center;
+ *  height: 100px;
+ *  left: 50%;
+ *  transform: translate(-50%, 0px);
+ *  box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2);
+ *}
+ *.home-page-header .home-page-nav .brand-logo {
+ *  position: absolute;
+ *  left: 50%;
+ *  top: -21vh;
+ *  transform: translateX(-50%);
+ *  bottom: 0;
+ *  margin: 0 auto;
+ *  text-align: center;
+ *}
+ *.home-page-header .home-page-nav .brand-logo img {
+ *  width: 40%;
+ *  height: auto;
+ *}
+ *@media (min-width: 1400px) and (max-width: 2000px) {
+ *  .home-page-header .home-page-nav .brand-logo {
+ *    top: -17vh;
+ *  }
+ *  .home-page-header .home-page-nav .brand-logo img {
+ *    width: 30%;
+ *  }
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down {
+ *  position: absolute;
+ *  bottom: 0;
+ *  left: 50%;
+ *  transform: translate(-50%);
+ *  width: 80%;
+ *  display: flex;
+ *  justify-content: space-around;
+ *  text-align: center;
+ *  padding: auto;
+ *  margin-bottom: 20px;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down.headerNav {
+ *  flex-direction: row-reverse !important;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down.headerNav li.active {
+ *  font-family: 'JFLight', sans-serif;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down.headerNav li a {
+ *  font-family: 'JFLight', sans-serif;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down.headerNav li a.selected {
+ *  font-family: 'JFRegular', sans-serif;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down.headerNav li a {
+ *  letter-spacing: 0;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down li {
+ *  margin: 0 2px;
+ *  background: none;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down li a {
+ *  letter-spacing: 0.2em;
+ *  font-size: 0.9em;
+ *  font-weight: 100;
+ *  max-height: 50px;
+ *  transition: all 0.3s;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down li a:hover {
+ *  transform: translateY(-5px);
+ *  background: none;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down li::after {
+ *  content: '';
+ *  display: block;
+ *  width: 0;
+ *  height: 2px;
+ *  background: #fff;
+ *  transition: all 0.3s;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down li:hover::after {
+ *  width: 100%;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down li.active a {
+ *  font-weight: 600 !important;
+ *  font-size: 0.9em;
+ *  border-bottom: 2px solid #fff;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down li.active a:hover {
+ *  transform: none;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down li.active::after {
+ *  display: none;
+ *}
+ *.home-page-header .home-page-nav .hide-on-med-and-down li:hover {
+ *  background: none;
+ *}
+ *.home-page-header .hero-text {
+ *  position: absolute;
+ *  top: 40%;
+ *  z-index: 3;
+ *  width: 80%;
+ *  left: 50%;
+ *  transform: translate(-50%, -40%);
+ *  text-align: center;
+ *  color: #fff;
+ *}
+ *.home-page-header .hero-text img {
+ *  display: none;
+ *}
+ *.home-page-header .hero-text h3 {
+ *  font-weight: 100;
+ *}
+ *.home-page-header .hero-text h3.titleAr {
+ *  font-family: 'DroidKufiRegular', sans-serif;
+ *}
+ *.home-page-header .hero-text h1 {
+ *  font-weight: 800;
+ *  font-size: 8em;
+ *  text-shadow: 9px 8px 20px rgba(0, 0, 0, 0.38);
+ *  margin: 0;
+ *  padding: 0;
+ *}
+ *.home-page-header .hero-text h1 span {
+ *  font-weight: 800;
+ *}
+ *.home-page-header .hero-text h1.titleAr {
+ *  font-family: 'DroidKufiBold', sans-serif;
+ *}
+ *.home-page-header .hero-text h1.titleAr span {
+ *  font-family: 'DroidKufiBold', sans-serif;
+ *  color: #d2a63e;
+ *}
+ *
+ *@media (max-width: 992px) {
+ *  .home-page-header .home-page-nav {
+ *    display: none;
+ *    top: 0;
+ *    width: 100%;
+ *    background-color: #1d1d1d;
+ *    height: 40px;
+ *    left: 0;
+ *    transform: translateX(0);
+ *    z-index: 10;
+ *  }
+ *  .home-page-header .home-page-nav .brand-logo {
+ *    display: none;
+ *  }
+ *  .home-page-header .home-page-nav .side-nav {
+ *    display: block !important;
+ *    padding: 40px 0;
+ *    height: 100vh;
+ *    z-index: 10;
+ *    background-color: #222222;
+ *    text-align: center;
+ *  }
+ *  .home-page-header .home-page-nav .side-nav img {
+ *    width: 50%;
+ *    height: auto;
+ *    margin-bottom: 30px;
+ *  }
+ *  .home-page-header .home-page-nav .side-nav li {
+ *    margin-top: 20px;
+ *    width: 100%;
+ *  }
+ *  .home-page-header .home-page-nav .side-nav li.active {
+ *    background-color: #cda036;
+ *  }
+ *  .home-page-header .home-page-nav .side-nav li.active a {
+ *    font-weight: 400;
+ *    letter-spacing: 0.5em;
+ *    letter-spacing-font-size: 1.1em;
+ *  }
+ *  .home-page-header .home-page-nav .side-nav li a {
+ *    color: #fff;
+ *    font-size: 1em;
+ *    letter-spacing: 0.2em;
+ *    font-weight: 200;
+ *  }
+ *  .home-page-header .button-collapse {
+ *    margin-top: -8px;
+ *  }
+ *  .home-page-header .hero-text img {
+ *    display: block !important;
+ *    max-width: 50%;
+ *    height: auto;
+ *    margin: auto;
+ *    margin-top: 0%;
+ *    margin-bottom: 50px;
+ *  }
+ *  .home-page-header .hero-text h3 {
+ *    font-size: 1.5em !important;
+ *  }
+ *  .home-page-header .hero-text h1 {
+ *    font-size: 3.6em !important;
+ *    margin: 5px;
+ *  }
+ *  .home-page-header .hero-text h1::after {
+ *    display: none;
+ *  }
+ *}
+ *@media (min-width: 993px) and (max-width: 1275px) {
+ *  .home-page-header .home-page-nav {
+ *    display: none;
+ *    top: 0;
+ *    width: 100%;
+ *    background-color: #1d1d1d;
+ *    height: 40px;
+ *    left: 0;
+ *    transform: translateX(0);
+ *    z-index: 10;
+ *  }
+ *  .home-page-header .home-page-nav .brand-logo {
+ *    top: -25vh;
+ *  }
+ *} */
+/*# sourceMappingURL=Header.css.map */

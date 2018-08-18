@@ -1,0 +1,251 @@
+.btn
+  background-color: #B49952 !important
+  color: #2f2f86
+
+.contact-section
+  margin-top: 10px
+  width: 100%
+  height: 800px
+  position: relative
+  h1
+    margin-top: 0
+    &.titleAr
+      text-align: right
+      direction: rtl
+      letter-spacing: 0
+      font-family: "Cairo", sans-serif
+      &::before
+        display: none
+      &::after
+        width: 40px
+        margin-right: 10px
+    &::before
+      content: "CONTACT US" !important
+    &::after
+      top: 80%
+  .contact-input
+    margin-top: 52px
+    height: 520px
+    background-color: #2f2f86
+    z-index: 10
+    width: 50%
+    padding: 20px 30px
+    color: #fff
+    box-sizing: border-box
+    border: 10px solid #B49952
+    box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2)
+    h5
+      font-weight: 100
+      font-size: 2em
+      margin-top: 0
+      &.titleAr
+        text-align: right
+        direction: rtl
+        letter-spacing: 0
+        font-family: "Cairo", sans-serif
+      &.titleEn
+        color: #ffffff !important
+        font-family: "Nunito Sans", sans-serif
+    p
+      color: #ffffff
+      font-weight: 100
+      opacity: 0.5
+      &.titleAr
+        color: yellow
+        text-align: right
+        direction: rtl
+        letter-spacing: 0
+        font-family: "Cairo", sans-serif
+      &.titleEn
+        color: yellow !important
+        font-family: "Nunito Sans", sans-serif
+    form
+      text-align: center
+      .input-field
+        width: 90%
+        opacity: 1
+        .row .label
+          text-align: left
+          position: relative
+          right: 0
+          margin-left: 10px
+          &.titleAr
+            position: relative
+            right: 0
+            text-align: right
+            direction: rtl
+            letter-spacing: 0
+            margin-top: 0px
+            margin-right: 0 !important
+            font-family: "Cairo", sans-serif
+        .label
+          text-align: left
+          &.titleAr
+            color: yellow
+            margin-top: -10px
+            display: table
+            text-align: right
+            direction: rtl
+            letter-spacing: 0
+        &.inputAr
+          position: relative
+          right: 0
+          text-align: right
+          direction: rtl
+          letter-spacing: 0
+          margin-right: 0 !important
+          input
+            position: relative
+            right: 0
+        input
+          color: #fff
+          &::placeholder
+            opacity: 0.5
+            font-size: 0.8em
+          &:focus
+            border-bottom: 1px solid #CDA036 !important
+            box-shadow: 0 1px 0 0 #CDA036 !important
+            border-left: none !important
+            + label
+              color: #CDA036 !important
+      .react-tel-input
+        text-align: left !important
+        direction: ltr
+        margin-top: 10px !important
+        width: 95%
+        z-index: 200
+        &.inputAr
+          transform: translateX(-25px)
+        input
+          border: none
+          background-color: rgba(0, 0, 0, 0)
+          box-shadow: none
+          max-width: 95%
+          border-radius: 0
+          border-bottom: 1px solid #9E9E9E !important
+          color: #fff
+          &:focus
+            border-bottom: 1.5px solid #CDA036 !important
+            box-shadow: 0 1px 0 0 #CDA036 !important
+            border-left: none !important
+        .flag-dropdown
+          background-color: rgba(0, 0, 0, 0)
+          border: none
+          border-radius: 0
+          &:hover
+            background-color: rgba(0, 0, 0, 0)
+          .selected-flag
+            background-color: none
+            &:hover
+              background-color: rgba(0, 0, 0, 0)
+          .country-list
+            background-color: #222222
+            li
+              text-align: left
+              &:hover, &.highlight
+                background-color: #CDA036
+              .flag
+                width: 20px
+              .dial-code
+                color: #fff
+      button
+        margin: 10px auto
+        width: 200px
+        background-color: #28A9E5
+        font-size: 0.8em
+        font-weight: 500
+    .contact-info
+      margin-top: 0px
+      text-align: left
+      opacity: 1
+      i
+        color: #ffffff
+        font-size: 25px !important
+      p
+        color: #ffffff !important
+        padding-left: 40px
+        opacity: 1
+    .contact-social-mobile
+      text-align: center
+      margin-top: 20px
+      a
+        margin: 10px
+        i
+          font-size: 25px
+  #map
+    height: 600px
+    width: 100%
+    width: 90%
+    position: relative
+    overflow: visible
+    transform: translateY(10%)
+    margin: 0
+    padding: 0
+    box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2)
+
+@media (max-width: 992px)
+  .contact-section
+    margin-top: 20px
+    height: 770px !important
+    h1
+      padding-top: 0
+      text-align: center
+      &::before
+        display: none
+    .contact-social
+      display: none
+    .contact-input
+      position: relative
+      margin: 10px auto
+      width: 100%
+      top: 20%
+      transform: translateX(0)
+      form
+        display: block
+        margin: auto
+        padding-top: 10px
+        text-align: center
+        justify-content: space-between
+        #demo
+          position: relative
+          left: 0
+          width: 80%
+        .react-tel-input
+          width: 80% !important
+          left: 0
+          float: left !important
+        a
+          &.facebook img
+            width: 10px
+          img
+            width: 20px
+            height: auto
+            margin: 10px
+            display: inline
+    .map
+      display: none !important
+
+@media (min-width: 993px) and (max-width: 1200px)
+  .contact-input form
+    #demo
+      position: relative
+      left: 0
+      width: 100% !important
+    .intl-tel-input
+      transform: translateX(-20px) !important
+      position: relative !important
+      left: 0 !important
+
+@media (min-width: 1401px) and (max-width: 2000px)
+  .contact-section .contact-input form
+    #demo
+      position: relative
+      left: 0
+      width: 230% !important
+    .intl-tel-input
+      left: 0
+      transform: translateX(-300px) !important
+      position: relative !important
+      left: 0 !important
+
+/*# sourceMappingURL=Getintouch.css.map

@@ -1,0 +1,267 @@
+@import url(~slick-carousel/slick/slick.css)
+
+@import url(~slick-carousel/slick/slick-theme.css)
+
+.arabic-description
+  direction: rtl
+  float: right
+  margin-top: 0
+
+/* the whole containing div
+
+.projetcsCarousel
+  height: 800px
+  color: #fff
+  h1
+    &.carouselTitleAr
+      color: #2f2f86
+      letter-spacing: 0
+      text-align: right
+      direction: rtl
+      font-family: "Cairo", sans-serif
+    &.carouselTitleEn
+      color: #2f2f86
+      letter-spacing: 0
+      text-align: left
+      direction: rtl
+      font-family: "Nunito Sans", sans-serif !important
+  .containermy .row .carousel
+    height: 520px
+    display: flex
+    .right-btn, .left-btn
+      margin: auto
+      width: 100px
+      height: 40px
+      position: relative
+      z-index: 100
+      background: #b49952
+      text-align: center
+      display: flex
+    .right-btn p, .left-btn p
+      margin: auto
+      font-weight: 400
+      color: #fff
+    .right-btn.right-btn, .left-btn.right-btn
+      right: 10px
+    .right-btn.right-btn::before, .left-btn.right-btn::before
+      content: ""
+      color: #b49952
+      position: absolute
+      right: -19px
+      bottom: 0
+      width: 0
+      height: 0
+      border-left: 20px solid #b49952
+      border-top: 20px solid transparent
+      border-bottom: 20px solid transparent
+    .right-btn.left-btn, .left-btn.left-btn
+      left: 10px
+    .right-btn.left-btn::before, .left-btn.left-btn::before
+      content: ""
+      color: #b49952
+      position: absolute
+      left: -19.5px
+      bottom: 0
+      width: 0
+      height: 0
+      border-right: 20px solid #b49952
+      border-top: 20px solid transparent
+      border-bottom: 20px solid transparent
+    .slick-slider
+      height: 520px
+      .slick-arrow
+        width: 100px
+        position: absolute
+        z-index: 200
+        display: inline
+        height: 40px
+        opacity: 0
+        &.slick-prev
+          left: -8%
+        &.slick-next
+          right: -8%
+      .slick-list
+        background-color: #fff
+        height: 520px
+        width: auto
+        padding-bottom: 10px
+        .slick-track
+          height: 520px
+          .slick-slide
+            width: auto
+        .wrapper
+          width: 350px
+          height: 500px
+          border: 0px solid #f9f7f6
+          background-color: #f9f7f6
+          margin: 10px
+          padding: 0 !important
+          border-radius: 10px
+          overflow: hidden
+          box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2)
+          position: relative !important
+          left: 50%
+          transform: translateX(-50%)
+          .carouselImages
+            position: relative
+            width: 100%
+            height: 250px
+            background-position: center
+            background-size: cover
+            h6
+              background-color: #b49952
+              margin: 0
+              position: absolute
+              top: 7px
+              left: 10px
+              color: #fff
+              font-size: 1.5em
+              font-family: "Oswald", sans-serif
+            &.cayan-101
+              background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522314639/projects/cayan-124/carousel-cayan-124.jpg")
+            &.cayan-141
+              background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522314821/projects/cayan-107/carousel-cayan-107.jpg")
+            &.cayan-126
+              background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522322995/carousel/cayan-11.jpg")
+            &.cayan-144
+              background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522323549/carousel/caya-15.jpg")
+            &.cayan-119
+              background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522323765/carousel/cayan-101.jpg")
+            &.cayan-150
+              background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1522323968/carousel/cayan-100.jpg")
+          .description
+            position: relative
+            padding: 10px
+            .project-info1
+              height: 200px
+            /* height: 110px;
+            
+            h5
+              font-size: 1.3em
+              color: #cda036
+              font-family: "Oswald", sans-serif
+              margin-top: 0px
+          .project-info1
+            width: 100% !important
+            display: flex
+            justify-content: space-around
+            flex-direction: column
+            text-align: center
+            height: 100%
+            .project-info-icons
+              margin: auto
+              font-weight: 300
+              color: #2f2f86
+              width: 90%
+              height: 100%
+              padding-left: 5px
+              text-align: left
+              &.arabicTitle
+                text-align: right !important
+                .each
+                  text-align: right
+                i
+                  position: relative
+                  right: 0
+                  margin: 0
+                  text-align: right !important
+              .each
+                position: relative
+                margin-top: 1px
+                i
+                  display: inline
+                  color: #b49952
+                  font-size: 20px
+                  &.iconsAr
+                    position: absolute
+                    right: 0
+                p
+                  display: inline
+                  font-size: 0.9em
+                  margin-left: 20px
+                  font-weight: 500
+                  display: none
+                  &.nutural, &.classEn
+                    display: inline
+                    margin-right: 40px
+                  &.classAr
+                    padding-top: 60px !important
+                    text-align: right
+                    direction: rtl
+                    display: inline
+                    margin-right: 40px
+                    font-size: 1em
+                    /* float: right;
+                    /* font-size: 0.7em;
+                    font-family: "Cairo", sans-serif
+          .more-details
+            position: relative
+            left: 50%
+            transform: translateX(-50%)
+            bottom: 0
+            background-color: #222222
+            color: #fff
+            font-size: 0.8em
+            font-weight: 300
+            font-family: "Oswald", sans-serif
+            padding: 10px
+            border: none
+            width: 120px
+            border-radius: 10px
+            margin-top: 20px
+            &.carouselTitleAr
+              font-family: "Cairo", sans-serif
+
+@media (min-width: 993px) and (max-width: 1500px)
+  .projetcsCarousel .containermy
+    width: 100% !important
+    .right-btn, .left-btn
+      width: 0px !important
+      opacity: 0.2
+      background-color: transparent !important
+    .right-btn p, .left-btn p
+      display: none
+    .slick-slider
+      width: 90%
+      margin: 0 !important
+      .slick-arrow
+        width: 30px !important
+        &.slick-prev
+          left: -3.5% !important
+        &.slick-next
+          right: -3.5% !important
+      .slick-list .wrapper
+        width: 280px !important
+        .description
+          h5
+            font-size: 1.2em !important
+          h6
+            font-size: 0.9em !important
+
+@media (max-width: 993px)
+  .projetcsCarousel .containermy
+    width: 100% !important
+    .right-btn, .left-btn
+      width: 0px !important
+      opacity: 0.2
+      background-color: transparent !important
+    .right-btn p, .left-btn p
+      display: none
+    .slick-slider
+      width: 90%
+      margin: 0 !important
+      .slick-arrow
+        width: 30px !important
+        &.slick-prev
+          left: -3.5% !important
+        &.slick-next
+          right: -3.5% !important
+      .slick-list .wrapper
+        width: 280px !important
+        .description
+          h5
+            font-size: 1.2em !important
+          h6
+            font-size: 0.9em !important
+
+/*# sourceMappingURL=ProjectsCarousel.css.map

@@ -1,0 +1,123 @@
+.why-choose-us {
+  background-image: linear-gradient(
+    to right top,
+    #b49952,
+    #c6ac5c,
+    #d7c067,
+    #e8d572,
+    #f9ea7d
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 92%); */
+  position: relative;
+  padding: 0 0 80px 0;
+}
+.why-choose-us .why-choose-us-info .why-choose-us-info-each {
+  text-align: center;
+}
+.why-choose-us h1 {
+  font-family: 'Nunito Sans', sans-serif !important;
+  color: #fff;
+  margin-top: 0 !important;
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 2em;
+}
+.why-choose-us .whyusTitle {
+  color: white;
+  text-align: right;
+  right: 0;
+  letter-spacing: 0;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif !important;
+}
+.why-choose-us .why-choose-us-info {
+  margin-top: 0px;
+  color: #2f2f86;
+}
+.why-choose-us .why-choose-us-info .why-choose-us-info-each {
+  margin-top: 30px;
+}
+.why-choose-us .why-choose-us-info .why-choose-us-info-each i {
+  /* display: none; */
+  color: #fff;
+}
+.why-choose-us .why-choose-us-info .why-choose-us-info-each .bg {
+  color: #fff;
+  font-size: 50px;
+  color: #2f2f86;
+}
+.why-choose-us
+  .why-choose-us-info
+  .why-choose-us-info-each
+  .why-choose-us-text
+  p {
+  color: #fff;
+  line-height: 1.1em;
+  margin-top: 20px;
+}
+.why-choose-us
+  .why-choose-us-info
+  .why-choose-us-info-each
+  .why-choose-us-text.whyusAr {
+  text-align: right;
+  direction: rtl;
+}
+.why-choose-us
+  .why-choose-us-info
+  .why-choose-us-info-each
+  .why-choose-us-text.whyusAr
+  h6,
+.why-choose-us
+  .why-choose-us-info
+  .why-choose-us-info-each
+  .why-choose-us-text.whyusAr
+  p {
+  /* margin-right: 60px; */
+  text-align: center;
+  font-family: 'Cairo', sans-serif !important;
+}
+.why-choose-us
+  .why-choose-us-info
+  .why-choose-us-info-each
+  .why-choose-us-text.whyusAr
+  i {
+  color: #fff;
+}
+
+/* .why-choose-us-info {
+ *  padding-top: 50px;
+ *} */
+/* .why-choose-us::before {
+ *  z-index: -1;
+ *  content: '';
+ *  position: absolute;
+ *  width: 100%;
+ *  height: 100%;
+ *  background-color: #222222;
+ *} */
+/* .why-choose-us h1::before {
+ *  content: 'WHY CHOOSE US' !important;
+ *  position: absolute;
+ *  color: #cda036;
+ *  opacity: 0.07;
+ *  font-size: 1.2em;
+ *}
+ *.why-choose-us h1::after {
+ *  top: 75%;
+ *} */
+/* .why-choose-us .whyusTitle::before {
+ *  display: none;
+ *} */
+/* .why-choose-us .whyusTitle::after {
+ *  margin-right: 10px;
+ *} */
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2em !important;
+  }
+}
+
+/*# sourceMappingURL=whyus.css.map */
