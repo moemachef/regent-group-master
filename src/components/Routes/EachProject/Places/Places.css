@@ -1,74 +1,94 @@
 .places {
-  padding-bottom: 30px; }
-  .places .text {
-    margin-bottom: 30px; }
-    .places .text h2 {
-      color: #222222;
-      letter-spacing: 0.1em;
-      position: relative; }
-      .places .text h2::after {
-        content: "NEARBY PLACES";
-        position: absolute;
-        line-height: 1em;
-        width: 450px;
-        z-index: -1;
-        color: rgba(0, 0, 0, 0.04);
-        left: -50%;
-        font-size: 2em;
-        font-weight: 600; }
-    .places .text hr {
-      border: 2px solid #CDA036; }
-  .places .places-each {
-    text-align: center;
-    margin-top: 20px; }
-    .places .places-each .image {
-      width: 195px;
-      height: 141px;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-      box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2);
-      background-image: url("https://res.cloudinary.com/dd5e5iszi/image/upload/v1526647656/other/places.png"); }
-      .places .places-each .image.metro {
-        background-position: -225px -171px; }
-      .places .places-each .image.taksim {
-        background-position: -225px -332px; }
-      .places .places-each .image.sultan {
-        background-position: -440px -10px; }
-      .places .places-each .image.ataturk {
-        background-position: -10px -10px; }
-      .places .places-each .image.metrobus {
-        background-position: -225px -10px; }
-      .places .places-each .image.new-airport {
-        background-position: -10px -171px; }
-      .places .places-each .image.tem {
-        background-position: -440px -171px; }
-      .places .places-each .image.beach {
-        background-position: -10px -332px; }
-      .places .places-each .image p {
-        color: #fff;
-        font-weight: 800;
-        font-family: "Oswald", sans-serif;
-        font-size: 2em;
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%); }
-    .places .places-each .text-each {
-      width: 195px;
-      box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2);
-      padding: 10px 0;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%); }
-      .places .places-each .text-each p {
-        font-weight: 600; }
-        .places .places-each .text-each p.infoTextAr {
-          font-family: "JFRegular", sans-serif; }
-      .places .places-each .text-each hr {
-        border: 1px solid #CDA036;
-        width: 20%;
-        margin: auto;
-        margin-top: 6px; }
+  padding-bottom: 30px;
+}
+.places .text {
+  margin-bottom: 30px;
+}
+.places .text h2 {
+  color: #222222;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+.places .text h2::after {
+  content: 'NEARBY PLACES';
+  position: absolute;
+  line-height: 1em;
+  width: 450px;
+  z-index: -1;
+  color: rgba(0, 0, 0, 0.04);
+  left: -50%;
+  font-size: 2em;
+  font-weight: 600;
+}
+.places .text hr {
+  border: 2px solid #cda036;
+}
+.places .places-each {
+  text-align: center;
+  margin-top: 20px;
+}
+.places .places-each .image {
+  width: 195px;
+  height: 141px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2);
+  background-image: url('https://res.cloudinary.com/dd5e5iszi/image/upload/v1526647656/other/places.png');
+}
+.places .places-each .image.metro {
+  background-position: -225px -171px;
+}
+.places .places-each .image.taksim {
+  background-position: -225px -332px;
+}
+.places .places-each .image.sultan {
+  background-position: -440px -10px;
+}
+.places .places-each .image.ataturk {
+  background-position: -10px -10px;
+}
+.places .places-each .image.metrobus {
+  background-position: -225px -10px;
+}
+.places .places-each .image.new-airport {
+  background-position: -10px -171px;
+}
+.places .places-each .image.tem {
+  background-position: -440px -171px;
+}
+.places .places-each .image.beach {
+  background-position: -10px -332px;
+}
+.places .places-each .image p {
+  color: #fff;
+  font-weight: 800;
+  font-family: 'Cairo', sans-serif;
+  font-size: 2em;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.places .places-each .text-each {
+  width: 195px;
+  box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.places .places-each .text-each p {
+  font-weight: 600;
+}
+.places .places-each .text-each p.infoTextAr {
+  font-family: 'JFRegular', sans-serif;
+}
+.places .places-each .text-each hr {
+  border: 1px solid #cda036;
+  width: 20%;
+  margin: auto;
+  margin-top: 6px;
+}
 
 /*# sourceMappingURL=Places.css.map */
