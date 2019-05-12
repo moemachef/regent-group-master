@@ -99,7 +99,7 @@ class Navbar extends Component {
                 <img
                   className="responsive-img"
                   src="http://res.cloudinary.com/dgfb9ldfx/image/upload/v1531747547/regent-react-real-estate-app/logo_alone_website.png"
-                  alt="cayan group logo"
+                  alt="Regent group logo"
                 />
               </a>
 

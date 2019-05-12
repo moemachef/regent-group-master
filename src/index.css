@@ -19,7 +19,7 @@
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-weight: 100;
   margin: 0;
   padding: 0;
@@ -41,7 +41,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Cairo', sans-serif;
   height: 100%;
   overflow: auto;
 }
