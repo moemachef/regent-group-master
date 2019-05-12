@@ -12,7 +12,7 @@
       {PRODUCTS.map((product)=>{
         return (
           <div className={product.id}>
-          <img alt={'cayan-'+product.id} src={product.images} className={'cayan-'+product.id} />
+          <img alt={'regent-'+product.id} src={product.images} className={'cayan-'+product.id} />
           <div>
 
           </div>

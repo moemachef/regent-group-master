@@ -111,8 +111,8 @@ class EachProject extends Component {
                     <div className="image-each">
                       <img
                         src={images}
-                        alt="projects, real estate, istanbul, turkey,cayan group"
-                        alt="cayan group "
+                        alt="projects, real estate, istanbul, turkey,regent group"
+                        alt="regent group "
                       />
                     </div>
                   );
@@ -208,8 +208,8 @@ class EachProject extends Component {
                     <div className="image-each">
                       <img
                         src={interior}
-                        alt="projects, real estate, istanbul, turkey,cayan group"
-                        alt="cayan group "
+                        alt="projects, real estate, istanbul, turkey,regent group"
+                        alt="regent group "
                       />
                     </div>
                   );
@@ -256,8 +256,8 @@ class EachProject extends Component {
                       <div className="plan-image ">
                         <img
                           src={type.plan}
-                          alt="projects, real estate, istanbul, turkey,cayan group"
-                          alt="cayan group "
+                          alt="projects, real estate, istanbul, turkey,Regent group"
+                          alt="Regent group "
                         />
                       </div>
                     </TabPanel>

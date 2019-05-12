@@ -3,7 +3,7 @@ import GoogleMapReact from 'google-map-react';
 
 import './Map.css';
 
-const AnyReactComponent = ({ marker }) => <img src={'https://res.cloudinary.com/dqbgnn5hf/image/upload/v1533986136/Facebook_Places.svg'} alt="cayan group "/>;
+const AnyReactComponent = ({ marker }) => <img src={'https://res.cloudinary.com/dqbgnn5hf/image/upload/v1533986136/Facebook_Places.svg'} alt="regent group "/>;
 
 
 
