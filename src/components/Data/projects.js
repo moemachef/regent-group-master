@@ -1535,18 +1535,17 @@ const rawProjects = [{
         lat: 41.011189,
         lng: 28.674483,
         types: [{
-                type: '3+1',
-                minPrice: {
-                    TRY: 575000
-                },
-                maxPrice: {
-                    TRY: 675000
-                },
-                minArea: '175',
-                maxArea: '200',
-                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553335755/regent-react-real-estate-app/IST%201112/fp31.png'
-            }
-        ],
+            type: '3+1',
+            minPrice: {
+                TRY: 575000
+            },
+            maxPrice: {
+                TRY: 675000
+            },
+            minArea: '175',
+            maxArea: '200',
+            plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553335755/regent-react-real-estate-app/IST%201112/fp31.png'
+        }],
         images: [
             'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553335755/regent-react-real-estate-app/IST%201112/e1.jpg',
             'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553335762/regent-react-real-estate-app/IST%201112/e2.png',
@@ -2581,6 +2580,77 @@ const rawProjects = [{
         ]
     },
     {
+        id: '1409',
+        description: "Luxury Apartment and villas with an incredible view for sale with installments in Beylikduzu, Istanbul, Turkey. available 1+1, 2+1, 3+1 and 4+1 bedrooms apartments and duplex villas with with luxury two floors, private elevators, swimming pool and garague with an amazing view. Imagine having everything you need at your door step from work and entertainment to golden beaches, shopping malls, cafes, resturants, hospitals, fitness centers and stabels. One of Istanbu's biggest luxury projects which will finish in 2021. This project is built on an area of 1,200 m where nature meets the sea. It includes has 5,000 apartments and 330 villas. The owner company of this project was founded in 1979 with the goal of developing the most luxurious projects in Turkey. They developed a total 33 projects and 5 malls with international awards. You will find in this project luxury apartments and villas with an incredible view on the sea available with installments in Beylikduzu, Istanbul",
+        descriptionAr: '',
+        descriptionShort: 'The smartest project in Pasin Express, where shopping options are abundant and you will never run out of new places to visit.',
+        descriptionShortAr: 'المشروع الاذكى في باسن اكسبريس حيث يوفر لك الفرصة للتسوق من قلبك ومن دون الذهاب بعيدا عن المنزل ',
+        typesAll: '1+1, 2+1',
+        priceMin: {
+            TRY: 675000
+        },
+        priceMax: {
+            TRY: 995000
+        },
+        distances: {
+            taksim: '29 KM',
+            metro: '4.7 KM',
+            metrobus: '6 KM',
+            sultan: '28 KM',
+            ataturk: '13 KM',
+            newairport: '35 KM',
+            beach: '0 KM',
+            tem: '0.5 KM'
+        },
+        area: '78m - 120m',
+        name: 'Gul Express',
+        location: 'Basin Express, Istanbul',
+        locationAr: 'باسين اكسبريس ، اسطنبول',
+        status: '50% Down Payment',
+        statusAr: '50٪ دفعة أولي',
+        installment: '24',
+        deliveryDate: '2019',
+        deliveryDateAr: '2019',
+        downPayment: '50',
+        lat: 41.051130,
+        lng: 28.833099,
+        types: [{
+                type: '1+1',
+                minPrice: {
+                    TRY: 675000
+                },
+                maxPrice: {
+                    TRY: 690000
+                },
+                minArea: '78',
+                maxArea: '100',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557664672/regent-react-real-estate-app/IST%201409/fp11.jpg'
+            },
+            {
+                type: '2+1',
+                minPrice: {
+                    TRY: 950000
+                },
+                maxPrice: {
+                    TRY: 995000
+                },
+                minArea: '114',
+                maxArea: '120',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557664672/regent-react-real-estate-app/IST%201409/fp21.jpg'
+            }
+        ],
+        images: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557663398/regent-react-real-estate-app/IST%201409/e1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557663395/regent-react-real-estate-app/IST%201409/e2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557663379/regent-react-real-estate-app/IST%201409/e3.jpg',
+        ],
+        interior: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557663373/regent-react-real-estate-app/IST%201409/i1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557663394/regent-react-real-estate-app/IST%201409/i2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557663397/regent-react-real-estate-app/IST%201409/i3.jpg'
+        ]
+    },
+    {
         id: '1601',
         description: "We present to you our new luxurious project which is located in one of istanbul's most active and vibrate location which is büyükçekmece. This amazing project is located directly by the sea. Few steps and you will be on the shore, with an incredible moder architecture. This project has one of the best views Istanbul has to offer. The location of this project has made it one of the best in Istanbul. A combination between peace of mind, incredible view and modern architecture",
         descriptionAr: 'نقدم لكم مشروعنا الجديد الراقي كيان 107 الذي يقع بأكثر مناطق إسطنبول حيوية وحداثة وهي بيوكشكمجة، بما أنك بموقع يُمكنك من لمس البحر بمجرد مد يدك، فقد دفع المصممين لعمل تصميم معماري يليق بذلك الموقع والمفهوم. التحديات التي تفرضها بنية الأرض وتضاريسها الصعبة جعل المصممين يستفيدوا منها من حيث تحويلها الي قيمة إضافية لها وجعلها تنحدر كلما اقتربنا من مستوى سطح البحر كما وفَّرنا مساحات مفتوحة كبيرة قادرة على إثبات إطلالة البحر الخلابة في أكبر نسبةٍ من المشروع. مشروع   Cayan107 سيصبح مركزا حيويا هاما ونقطة التقاء للمنطقة مع منطقة معيشة على جانب البحر. بإختصار، هذا المشروع جمع بين هدوء و سكون الساحل و التصميم المعماري الذي يعكس الروح الحديثة في قلب الطبيعة الهادئة.',
@@ -2993,7 +3063,7 @@ const rawProjects = [{
         area: '64m - 242m',
         name: 'Nida Park',
         location: 'Şişli, Istanbul',
-        locationAr:'شيشلي ، اسطنبول',
+        locationAr: 'شيشلي ، اسطنبول',
         status: '50% Down Payment',
         statusAr: '50٪ دفعة أولي',
         installment: '30',
@@ -3143,6 +3213,101 @@ const rawProjects = [{
             'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553945421/regent-react-real-estate-app/IST%202102/i1.jpg',
             'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553945406/regent-react-real-estate-app/IST%202102/i2.jpg',
             'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553945412/regent-react-real-estate-app/IST%202102/i3.jpg'
+        ]
+    },
+    {
+        id: '2602',
+        description: "We present to you our new luxurious project which is located in one of istanbul's most active and vibrate location which is büyükçekmece. This amazing project is located directly by the sea. Few steps and you will be on the shore, with an incredible moder architecture. This project has one of the best views Istanbul has to offer. The location of this project has made it one of the best in Istanbul. A combination between peace of mind, incredible view and modern architecture",
+        descriptionAr: 'نقدم لكم مشروعنا الجديد الراقي كيان 107 الذي يقع بأكثر مناطق إسطنبول حيوية وحداثة وهي بيوكشكمجة، بما أنك بموقع يُمكنك من لمس البحر بمجرد مد يدك، فقد دفع المصممين لعمل تصميم معماري يليق بذلك الموقع والمفهوم. التحديات التي تفرضها بنية الأرض وتضاريسها الصعبة جعل المصممين يستفيدوا منها من حيث تحويلها الي قيمة إضافية لها وجعلها تنحدر كلما اقتربنا من مستوى سطح البحر كما وفَّرنا مساحات مفتوحة كبيرة قادرة على إثبات إطلالة البحر الخلابة في أكبر نسبةٍ من المشروع. مشروع   Cayan107 سيصبح مركزا حيويا هاما ونقطة التقاء للمنطقة مع منطقة معيشة على جانب البحر. بإختصار، هذا المشروع جمع بين هدوء و سكون الساحل و التصميم المعماري الذي يعكس الروح الحديثة في قلب الطبيعة الهادئة.',
+        descriptionShortAr: 'يقع المشروع في ارقى منطقة في افجيلار حيث تتمتع بكافة الخدمات و وسائل النقل المتعددة',
+        descriptionShort: 'The project located in Avcılar, Where everything you will need is one step away from your home.',
+        typesAll: '1+1, 2+1, 3+1, 4+1',
+        priceMin: {
+            TRY: 469000
+        },
+        priceMax: {
+            TRY: 1200000
+        },
+        distances: {
+            taksim: '8.7 KM',
+            metro: '1.6 KM',
+            metrobus: '2 KM',
+            sultan: '8.7 KM',
+            ataturk: '24 KM',
+            newairport: '34 KM',
+            beach: '0 KM',
+            tem: '4 KM'
+        },
+        area: '74m - 210m',
+        name: 'Firuze Konakları',
+        location: 'Avcılar, Istanbul',
+        locationAr: 'افجيلار ، اسطنبول',
+        status: '35% Down Payment',
+        statusAr: '35٪ دفعة أولي',
+        installment: '36',
+        deliveryDate: 'Ready',
+        deliveryDateAr: 'جاهز',
+        downPayment: '35',
+        lat: 41.017622,
+        lng: 28.691323,
+        types: [{
+                type: '1+1',
+                minPrice: {
+                    TRY: 469000
+                },
+                maxPrice: {
+                    TRY: 600000
+                },
+                minArea: '74',
+                maxArea: '100',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557662032/regent-react-real-estate-app/IST%202602/fp11-min.png'
+            },
+            {
+                type: '2+1',
+                minPrice: {
+                    TRY: 649000
+                },
+                maxPrice: {
+                    TRY: 900000
+                },
+                minArea: '113',
+                maxArea: '150',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557662032/regent-react-real-estate-app/IST%202602/fp21-min.png'
+            },
+            {
+                type: '3+1',
+                minPrice: {
+                    TRY: 989000
+                },
+                maxPrice: {
+                    TRY: 1100000
+                },
+                minArea: '175',
+                maxArea: '190',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557662044/regent-react-real-estate-app/IST%202602/fp31-min.png'
+            },
+            {
+                type: '4+1',
+                minPrice: {
+                    TRY: 1139000
+                },
+                maxPrice: {
+                    TRY: 1200000
+                },
+                minArea: '196',
+                maxArea: '210',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557662201/regent-react-real-estate-app/IST%202602/fp41-min.png'
+            }
+        ],
+        images: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557660413/regent-react-real-estate-app/IST%202602/e1-min.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557660425/regent-react-real-estate-app/IST%202602/e2-min.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557660417/regent-react-real-estate-app/IST%202602/e3-min.jpg'
+        ],
+        interior: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557660400/regent-react-real-estate-app/IST%202602/i1-min.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557660404/regent-react-real-estate-app/IST%202602/i2-min.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557660408/regent-react-real-estate-app/IST%202602/i3-min.jpg'
         ]
     },
     {

@@ -280,6 +280,14 @@
     background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553949564/IST%202202/hero.png');
 }
 
+.projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-2602 {
+    background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557660390/regent-react-real-estate-app/IST%202602/hero-min.jpg');
+}
+
+.projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-1409 {
+    background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1557663398/regent-react-real-estate-app/IST%201409/e1.jpg');
+}
+
 .projects-page .container .row .projectsPage-wrapper .wrapper h5 {
     margin: 10px auto;
     color: #b49952;
