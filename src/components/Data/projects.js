@@ -3122,7 +3122,7 @@ const rawProjects = [{
             }
         ],
         images: [
-            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553947000/regent-react-real-estate-app/IST%202103/e1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560107499/regent-react-real-estate-app/IST%202103/hero.jpg',
             'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553946991/regent-react-real-estate-app/IST%202103/e2.jpg',
             'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553946993/regent-react-real-estate-app/IST%202103/e3.jpg'
         ],
