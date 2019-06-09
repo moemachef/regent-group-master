@@ -3327,7 +3327,7 @@ const rawProjects = [{
             taksim: '8.7 KM',
             metro: '1.6 KM',
             metrobus: '1 KM',
-            sultan: '8.7 KM',
+            sultan: '8.6 KM',
             ataturk: '24 KM',
             newairport: '34 KM',
             beach: '0 KM',
