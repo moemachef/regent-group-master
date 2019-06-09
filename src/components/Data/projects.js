@@ -3318,7 +3318,7 @@ const rawProjects = [{
         descriptionShort: 'Folding home project in which you can enjoy living in luxury and high quality living.',
         typesAll: '1+1, 2+1, 3+1, 4+1',
         priceMin: {
-            TRY: 1014000
+            TRY: 700000
         },
         priceMax: {
             TRY: 3348000
@@ -3348,7 +3348,7 @@ const rawProjects = [{
         types: [{
                 type: '1+1',
                 minPrice: {
-                    TRY: 1014000
+                    TRY: 700000
                 },
                 maxPrice: {
                     TRY: 1272000
