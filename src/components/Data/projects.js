@@ -2497,6 +2497,101 @@ const rawProjects = [{
         ]
     },
     {
+        id: '1209',
+        description: "Luxury Apartment and villas with an incredible view for sale with installments in Beylikduzu, Istanbul, Turkey. available 1+1, 2+1, 3+1 and 4+1 bedrooms apartments and duplex villas with with luxury two floors, private elevators, swimming pool and garague with an amazing view. Imagine having everything you need at your door step from work and entertainment to golden beaches, shopping malls, cafes, resturants, hospitals, fitness centers and stabels. One of Istanbu's biggest luxury projects which will finish in 2021. This project is built on an area of 1,200 m where nature meets the sea. It includes has 5,000 apartments and 330 villas. The owner company of this project was founded in 1979 with the goal of developing the most luxurious projects in Turkey. They developed a total 33 projects and 5 malls with international awards. You will find in this project luxury apartments and villas with an incredible view on the sea available with installments in Beylikduzu, Istanbul",
+        descriptionAr: '',
+        descriptionShort: 'The project is located in Beylikduzu, away from the Marina by only one minute and five minutes from the main highway.',
+        descriptionShortAr: 'يقع المشروع في بيليكدوزو ، دقيقة واحدة من المارينا و خمسة دقائق من خطوط المواصلات الرئيسية',
+        typesAll: '1+1, 2+1, 3+1, 5+1',
+        priceMin: {
+            TRY: 382000
+        },
+        priceMax: {
+            TRY: 1842000
+        },
+        distances: {
+            taksim: '29 KM',
+            metro: '4.7 KM',
+            metrobus: '2.5 KM',
+            sultan: '28 KM',
+            ataturk: '13 KM',
+            newairport: '35 KM',
+            beach: '0 KM',
+            tem: '7.8 KM'
+        },
+        area: '59m - 350m',
+        name: 'Demir Country',
+        location: 'Beylikduzu, Istanbul',
+        locationAr: 'بيليك دوزو ، اسطنبول',
+        status: '35% Down Payment',
+        statusAr: '35٪ دفعة أولي',
+        installment: '36',
+        deliveryDate: '2020',
+        deliveryDateAr: '2020',
+        downPayment: '35',
+        lat: 40.983339,
+        lng: 28.667854,
+        types: [{
+                type: '1+1',
+                minPrice: {
+                    TRY: 382000
+                },
+                maxPrice: {
+                    TRY: 479000
+                },
+                minArea: '59',
+                maxArea: '73',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560186497/regent-react-real-estate-app/IST%201209/fp11.png'
+            },
+            {
+                type: '2+1',
+                minPrice: {
+                    TRY: 605000
+                },
+                maxPrice: {
+                    TRY: 1045000
+                },
+                minArea: '110',
+                maxArea: '165',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560186498/regent-react-real-estate-app/IST%201209/fp21.png'
+            },
+            {
+                type: '3+1',
+                minPrice: {
+                    TRY: 787000
+                },
+                maxPrice: {
+                    TRY: 1228000
+                },
+                minArea: '145',
+                maxArea: '191',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560186494/regent-react-real-estate-app/IST%201209/fp31.png'
+            },
+            {
+                type: '5+1',
+                minPrice: {
+                    TRY: 1513000
+                },
+                maxPrice: {
+                    TRY: 1842000
+                },
+                minArea: '310',
+                maxArea: '350',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560186488/regent-react-real-estate-app/IST%201209/fp51.png'
+            }
+        ],
+        images: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560186493/regent-react-real-estate-app/IST%201209/e1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560186509/regent-react-real-estate-app/IST%201209/e2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560186510/regent-react-real-estate-app/IST%201209/e3.jpg',
+        ],
+        interior: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560186493/regent-react-real-estate-app/IST%201209/i1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560186491/regent-react-real-estate-app/IST%201209/i2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560186509/regent-react-real-estate-app/IST%201209/i3.jpg'
+        ]
+    },
+    {
         id: '1210',
         description: "Luxury Apartment and villas with an incredible view for sale with installments in Beylikduzu, Istanbul, Turkey. available 1+1, 2+1, 3+1 and 4+1 bedrooms apartments and duplex villas with with luxury two floors, private elevators, swimming pool and garague with an amazing view. Imagine having everything you need at your door step from work and entertainment to golden beaches, shopping malls, cafes, resturants, hospitals, fitness centers and stabels. One of Istanbu's biggest luxury projects which will finish in 2021. This project is built on an area of 1,200 m where nature meets the sea. It includes has 5,000 apartments and 330 villas. The owner company of this project was founded in 1979 with the goal of developing the most luxurious projects in Turkey. They developed a total 33 projects and 5 malls with international awards. You will find in this project luxury apartments and villas with an incredible view on the sea available with installments in Beylikduzu, Istanbul",
         descriptionAr: '',
