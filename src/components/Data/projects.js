@@ -2497,6 +2497,77 @@ const rawProjects = [{
         ]
     },
     {
+        id: '1210',
+        description: "Luxury Apartment and villas with an incredible view for sale with installments in Beylikduzu, Istanbul, Turkey. available 1+1, 2+1, 3+1 and 4+1 bedrooms apartments and duplex villas with with luxury two floors, private elevators, swimming pool and garague with an amazing view. Imagine having everything you need at your door step from work and entertainment to golden beaches, shopping malls, cafes, resturants, hospitals, fitness centers and stabels. One of Istanbu's biggest luxury projects which will finish in 2021. This project is built on an area of 1,200 m where nature meets the sea. It includes has 5,000 apartments and 330 villas. The owner company of this project was founded in 1979 with the goal of developing the most luxurious projects in Turkey. They developed a total 33 projects and 5 malls with international awards. You will find in this project luxury apartments and villas with an incredible view on the sea available with installments in Beylikduzu, Istanbul",
+        descriptionAr: '',
+        descriptionShort: 'The project is located in Beylikduzu, has incredible view on the sea-side and marina, located near the metrobus station and Marmara Park Mall.',
+        descriptionShortAr: 'يقع المشروع في بيلكدوزو ، يتمتع باطلالات فريدة على الميناء و يقع بالقرب من المتروبوس و مارمارا بارك',
+        typesAll: '1+1, 2+1',
+        priceMin: {
+            TRY: 327000
+        },
+        priceMax: {
+            TRY: 700000
+        },
+        distances: {
+            taksim: '29 KM',
+            metro: '4.7 KM',
+            metrobus: '4 KM',
+            sultan: '28 KM',
+            ataturk: '13 KM',
+            newairport: '35 KM',
+            beach: '0 KM',
+            tem: '9 KM'
+        },
+        area: '60m - 130m',
+        name: 'Liv Marmara',
+        location: 'Beylikduzu, Istanbul',
+        locationAr: 'بيليك دوزو ، اسطنبول',
+        status: '35% Down Payment',
+        statusAr: '35٪ دفعة أولي',
+        installment: '36',
+        deliveryDate: 'Ready',
+        deliveryDateAr: 'جاهز',
+        downPayment: '35',
+        lat: 40.972236,
+        lng: 28.663446,
+        types: [{
+                type: '1+1',
+                minPrice: {
+                    TRY: 327000
+                },
+                maxPrice: {
+                    TRY: 500000
+                },
+                minArea: '60',
+                maxArea: '90',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560185000/regent-react-real-estate-app/IST%201210/fp11-min.png'
+            },
+            {
+                type: '2+1',
+                minPrice: {
+                    TRY: 639000
+                },
+                maxPrice: {
+                    TRY: 700000
+                },
+                minArea: '107',
+                maxArea: '130',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560185011/regent-react-real-estate-app/IST%201210/fp21-min.png'
+            }
+        ],
+        images: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560185007/regent-react-real-estate-app/IST%201210/e1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560185019/regent-react-real-estate-app/IST%201210/e2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560185009/regent-react-real-estate-app/IST%201210/e3.jpg',
+        ],
+        interior: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560184974/regent-react-real-estate-app/IST%201210/I1-min.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560184977/regent-react-real-estate-app/IST%201210/I2-min.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560184981/regent-react-real-estate-app/IST%201210/I3-min.jpg'
+        ]
+    },
+    {
         id: '1408',
         description: "Luxury Apartment and villas with an incredible view for sale with installments in Beylikduzu, Istanbul, Turkey. available 1+1, 2+1, 3+1 and 4+1 bedrooms apartments and duplex villas with with luxury two floors, private elevators, swimming pool and garague with an amazing view. Imagine having everything you need at your door step from work and entertainment to golden beaches, shopping malls, cafes, resturants, hospitals, fitness centers and stabels. One of Istanbu's biggest luxury projects which will finish in 2021. This project is built on an area of 1,200 m where nature meets the sea. It includes has 5,000 apartments and 330 villas. The owner company of this project was founded in 1979 with the goal of developing the most luxurious projects in Turkey. They developed a total 33 projects and 5 malls with international awards. You will find in this project luxury apartments and villas with an incredible view on the sea available with installments in Beylikduzu, Istanbul",
         descriptionAr: '',
