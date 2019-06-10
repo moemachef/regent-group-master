@@ -3382,6 +3382,89 @@ const rawProjects = [{
         ]
     },
     {
+        id: '2601',
+        description: "We present to you our new luxurious project which is located in one of istanbul's most active and vibrate location which is büyükçekmece. This amazing project is located directly by the sea. Few steps and you will be on the shore, with an incredible moder architecture. This project has one of the best views Istanbul has to offer. The location of this project has made it one of the best in Istanbul. A combination between peace of mind, incredible view and modern architecture",
+        descriptionAr: 'نقدم لكم مشروعنا الجديد الراقي كيان 107 الذي يقع بأكثر مناطق إسطنبول حيوية وحداثة وهي بيوكشكمجة، بما أنك بموقع يُمكنك من لمس البحر بمجرد مد يدك، فقد دفع المصممين لعمل تصميم معماري يليق بذلك الموقع والمفهوم. التحديات التي تفرضها بنية الأرض وتضاريسها الصعبة جعل المصممين يستفيدوا منها من حيث تحويلها الي قيمة إضافية لها وجعلها تنحدر كلما اقتربنا من مستوى سطح البحر كما وفَّرنا مساحات مفتوحة كبيرة قادرة على إثبات إطلالة البحر الخلابة في أكبر نسبةٍ من المشروع. مشروع   Cayan107 سيصبح مركزا حيويا هاما ونقطة التقاء للمنطقة مع منطقة معيشة على جانب البحر. بإختصار، هذا المشروع جمع بين هدوء و سكون الساحل و التصميم المعماري الذي يعكس الروح الحديثة في قلب الطبيعة الهادئة.',
+        descriptionShortAr: 'يقع المشروع في افجيلار ، حيث الاطلالات الفريدة على بحر مرمرة و بحيرة كشوكشكمجة',
+        descriptionShort: 'The project located in Avcılar, where unique views on Küçükçekmece lake and Marmara sea present right outside your window.',
+        typesAll: '1+1, 2+1, 3+1',
+        priceMin: {
+            TRY: 339000
+        },
+        priceMax: {
+            TRY: 1227000
+        },
+        distances: {
+            taksim: '8.7 KM',
+            metro: '1.6 KM',
+            metrobus: '1.5 KM',
+            sultan: '8.7 KM',
+            ataturk: '24 KM',
+            newairport: '34 KM',
+            beach: '0 KM',
+            tem: '5 KM'
+        },
+        area: '56m - 184m',
+        name: 'Collet',
+        location: 'Avcılar, Istanbul',
+        locationAr: 'افجيلار ، اسطنبول',
+        status: '35% Down Payment',
+        statusAr: '35٪ دفعة أولي',
+        installment: '36',
+        deliveryDate: '2020',
+        deliveryDateAr: '2020',
+        downPayment: '35',
+        lat: 41.010159,
+        lng: 28.687424,
+        types: [{
+                type: '1+1',
+                minPrice: {
+                    TRY: 339000
+                },
+                maxPrice: {
+                    TRY: 427000
+                },
+                minArea: '56',
+                maxArea: '64',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560189256/regent-react-real-estate-app/IST%202601/fp11.png'
+            },
+            {
+                type: '2+1',
+                minPrice: {
+                    TRY: 499000
+                },
+                maxPrice: {
+                    TRY: 736000
+                },
+                minArea: '90',
+                maxArea: '120',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560189258/regent-react-real-estate-app/IST%202601/fp21.png'
+            },
+            {
+                type: '3+1',
+                minPrice: {
+                    TRY: 669000
+                },
+                maxPrice: {
+                    TRY: 1227000
+                },
+                minArea: '113',
+                maxArea: '184',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560189256/regent-react-real-estate-app/IST%202601/fp31.png'
+            }
+        ],
+        images: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560189245/regent-react-real-estate-app/IST%202601/e1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560189246/regent-react-real-estate-app/IST%202601/e2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560189246/regent-react-real-estate-app/IST%202601/e3.jpg'
+        ],
+        interior: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560189260/regent-react-real-estate-app/IST%202601/i1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560189259/regent-react-real-estate-app/IST%202601/i2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560189258/regent-react-real-estate-app/IST%202601/i3.jpg'
+        ]
+    },
+    {
         id: '2602',
         description: "We present to you our new luxurious project which is located in one of istanbul's most active and vibrate location which is büyükçekmece. This amazing project is located directly by the sea. Few steps and you will be on the shore, with an incredible moder architecture. This project has one of the best views Istanbul has to offer. The location of this project has made it one of the best in Istanbul. A combination between peace of mind, incredible view and modern architecture",
         descriptionAr: 'نقدم لكم مشروعنا الجديد الراقي كيان 107 الذي يقع بأكثر مناطق إسطنبول حيوية وحداثة وهي بيوكشكمجة، بما أنك بموقع يُمكنك من لمس البحر بمجرد مد يدك، فقد دفع المصممين لعمل تصميم معماري يليق بذلك الموقع والمفهوم. التحديات التي تفرضها بنية الأرض وتضاريسها الصعبة جعل المصممين يستفيدوا منها من حيث تحويلها الي قيمة إضافية لها وجعلها تنحدر كلما اقتربنا من مستوى سطح البحر كما وفَّرنا مساحات مفتوحة كبيرة قادرة على إثبات إطلالة البحر الخلابة في أكبر نسبةٍ من المشروع. مشروع   Cayan107 سيصبح مركزا حيويا هاما ونقطة التقاء للمنطقة مع منطقة معيشة على جانب البحر. بإختصار، هذا المشروع جمع بين هدوء و سكون الساحل و التصميم المعماري الذي يعكس الروح الحديثة في قلب الطبيعة الهادئة.',
