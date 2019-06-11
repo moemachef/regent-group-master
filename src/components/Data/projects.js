@@ -2817,6 +2817,101 @@ const rawProjects = [{
         ]
     },
     {
+        id: '1502',
+        description: "We present to you our new luxurious project which is located in one of istanbul's most active and vibrate location which is büyükçekmece. This amazing project is located directly by the sea. Few steps and you will be on the shore, with an incredible moder architecture. This project has one of the best views Istanbul has to offer. The location of this project has made it one of the best in Istanbul. A combination between peace of mind, incredible view and modern architecture",
+        descriptionAr: 'نقدم لكم مشروعنا الجديد الراقي كيان 107 الذي يقع بأكثر مناطق إسطنبول حيوية وحداثة وهي بيوكشكمجة، بما أنك بموقع يُمكنك من لمس البحر بمجرد مد يدك، فقد دفع المصممين لعمل تصميم معماري يليق بذلك الموقع والمفهوم. التحديات التي تفرضها بنية الأرض وتضاريسها الصعبة جعل المصممين يستفيدوا منها من حيث تحويلها الي قيمة إضافية لها وجعلها تنحدر كلما اقتربنا من مستوى سطح البحر كما وفَّرنا مساحات مفتوحة كبيرة قادرة على إثبات إطلالة البحر الخلابة في أكبر نسبةٍ من المشروع. مشروع   Cayan107 سيصبح مركزا حيويا هاما ونقطة التقاء للمنطقة مع منطقة معيشة على جانب البحر. بإختصار، هذا المشروع جمع بين هدوء و سكون الساحل و التصميم المعماري الذي يعكس الروح الحديثة في قلب الطبيعة الهادئة.',
+        descriptionShortAr: 'يقع المشروع في كوشوكشكمجة ، على اطلالات بانورامية على الحدائق و المساحات الخضراء',
+        descriptionShort: 'The project is located in Küçükçekmece, with incredible panoramic views on green landscape.',
+        typesAll: '1+1, 2+1, 3+1, 4+1',
+        priceMin: {
+            TRY: 628000
+        },
+        priceMax: {
+            TRY: 1834000
+        },
+        distances: {
+            taksim: '8.7 KM',
+            metro: '1.6 KM',
+            metrobus: '7.7 KM',
+            sultan: '8.7 KM',
+            ataturk: '24 KM',
+            newairport: '34 KM',
+            beach: '0 KM',
+            tem: '0.8 KM'
+        },
+        area: '81m - 203m',
+        name: 'Tema Istanbul',
+        location: 'Küçükçekmece, Istanbul',
+        locationAr: 'كوشوكشكمجة ، اسطنبول',
+        status: '50% Down Payment',
+        statusAr: '50٪ دفعة أولي',
+        installment: '12',
+        deliveryDate: 'Ready',
+        deliveryDateAr: 'جاهز',
+        downPayment: '50',
+        lat: 41.045813,
+        lng: 28.776125,
+        types: [{
+                type: '1+1',
+                minPrice: {
+                    TRY: 628000
+                },
+                maxPrice: {
+                    TRY: 700000
+                },
+                minArea: '81',
+                maxArea: '90',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560275368/regent-react-real-estate-app/IST%201502/fp11.png'
+            },
+            {
+                type: '2+1',
+                minPrice: {
+                    TRY: 736000
+                },
+                maxPrice: {
+                    TRY: 1020000
+                },
+                minArea: '92',
+                maxArea: '135',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560274325/regent-react-real-estate-app/IST%201502/fp21.png'
+            },
+            {
+                type: '3+1',
+                minPrice: {
+                    TRY: 1015000
+                },
+                maxPrice: {
+                    TRY: 1376000
+                },
+                minArea: '147',
+                maxArea: '175',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560274326/regent-react-real-estate-app/IST%201502/fp31.png'
+            },
+            {
+                type: '4+1',
+                minPrice: {
+                    TRY: 1186000
+                },
+                maxPrice: {
+                    TRY: 1834000
+                },
+                minArea: '180',
+                maxArea: '203',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560274325/regent-react-real-estate-app/IST%201502/fp41.png'
+            }
+        ],
+        images: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560274333/regent-react-real-estate-app/IST%201502/e1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560274332/regent-react-real-estate-app/IST%201502/e2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560274333/regent-react-real-estate-app/IST%201502/e3.jpg'
+        ],
+        interior: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560274333/regent-react-real-estate-app/IST%201502/i1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560274334/regent-react-real-estate-app/IST%201502/i2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560274335/regent-react-real-estate-app/IST%201502/i3.jpg'
+        ]
+    },
+    {
         id: '1601',
         description: "We present to you our new luxurious project which is located in one of istanbul's most active and vibrate location which is büyükçekmece. This amazing project is located directly by the sea. Few steps and you will be on the shore, with an incredible moder architecture. This project has one of the best views Istanbul has to offer. The location of this project has made it one of the best in Istanbul. A combination between peace of mind, incredible view and modern architecture",
         descriptionAr: 'نقدم لكم مشروعنا الجديد الراقي كيان 107 الذي يقع بأكثر مناطق إسطنبول حيوية وحداثة وهي بيوكشكمجة، بما أنك بموقع يُمكنك من لمس البحر بمجرد مد يدك، فقد دفع المصممين لعمل تصميم معماري يليق بذلك الموقع والمفهوم. التحديات التي تفرضها بنية الأرض وتضاريسها الصعبة جعل المصممين يستفيدوا منها من حيث تحويلها الي قيمة إضافية لها وجعلها تنحدر كلما اقتربنا من مستوى سطح البحر كما وفَّرنا مساحات مفتوحة كبيرة قادرة على إثبات إطلالة البحر الخلابة في أكبر نسبةٍ من المشروع. مشروع   Cayan107 سيصبح مركزا حيويا هاما ونقطة التقاء للمنطقة مع منطقة معيشة على جانب البحر. بإختصار، هذا المشروع جمع بين هدوء و سكون الساحل و التصميم المعماري الذي يعكس الروح الحديثة في قلب الطبيعة الهادئة.',

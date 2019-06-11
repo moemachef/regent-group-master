@@ -300,6 +300,10 @@
     background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560189258/regent-react-real-estate-app/IST%202601/hero.jpg');
 }
 
+.projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-1502 {
+    background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560274333/regent-react-real-estate-app/IST%201502/e1.jpg');
+}
+
 .projects-page .container .row .projectsPage-wrapper .wrapper h5 {
     margin: 10px auto;
     color: #b49952;
