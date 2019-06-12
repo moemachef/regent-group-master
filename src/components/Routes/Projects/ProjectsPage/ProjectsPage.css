@@ -316,6 +316,18 @@
     background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560279956/regent-react-real-estate-app/IST%201505/hero.jpg');
 }
 
+.projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-2301 {
+    background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355072/regent-react-real-estate-app/IST%202301/hero.jpg');
+}
+
+.projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-2302 {
+    background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357043/regent-react-real-estate-app/IST%202302/hero.jpg');
+}
+
+.projects-page .container .row .projectsPage-wrapper .wrapper .carouselImages.cayan-2401 {
+    background-image: url('https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359043/regent-react-real-estate-app/IST%202401/e1.jpg');
+}
+
 .projects-page .container .row .projectsPage-wrapper .wrapper h5 {
     margin: 10px auto;
     color: #b49952;

@@ -3668,6 +3668,196 @@ const rawProjects = [{
         ]
     },
     {
+        id: '2301',
+        description: "We present to you our new luxurious project which is located in one of istanbul's most active and vibrate location which is büyükçekmece. This amazing project is located directly by the sea. Few steps and you will be on the shore, with an incredible moder architecture. This project has one of the best views Istanbul has to offer. The location of this project has made it one of the best in Istanbul. A combination between peace of mind, incredible view and modern architecture",
+        descriptionAr: 'نقدم لكم مشروعنا الجديد الراقي كيان 107 الذي يقع بأكثر مناطق إسطنبول حيوية وحداثة وهي بيوكشكمجة، بما أنك بموقع يُمكنك من لمس البحر بمجرد مد يدك، فقد دفع المصممين لعمل تصميم معماري يليق بذلك الموقع والمفهوم. التحديات التي تفرضها بنية الأرض وتضاريسها الصعبة جعل المصممين يستفيدوا منها من حيث تحويلها الي قيمة إضافية لها وجعلها تنحدر كلما اقتربنا من مستوى سطح البحر كما وفَّرنا مساحات مفتوحة كبيرة قادرة على إثبات إطلالة البحر الخلابة في أكبر نسبةٍ من المشروع. مشروع   Cayan107 سيصبح مركزا حيويا هاما ونقطة التقاء للمنطقة مع منطقة معيشة على جانب البحر. بإختصار، هذا المشروع جمع بين هدوء و سكون الساحل و التصميم المعماري الذي يعكس الروح الحديثة في قلب الطبيعة الهادئة.',
+        descriptionShortAr: 'يقع المشروع في مسلك ، حيث القيمة الاستثمارية الأعلى في اسطنبول بالقرب من جميع خطوط المواصلات',
+        descriptionShort: 'The project located in Maslak, the highest investment value in Istanbul, near the downtown where all transportation lines are available.',
+        typesAll: '1+1, 2+1, 3+1، 4+1',
+        priceMin: {
+            TRY: 1420000
+        },
+        priceMax: {
+            TRY: 8170000
+        },
+        distances: {
+            taksim: '8.7 KM',
+            metro: '1.6 KM',
+            metrobus: '4 KM',
+            sultan: '8.7 KM',
+            ataturk: '24 KM',
+            newairport: '34 KM',
+            beach: '0 KM',
+            tem: '0.3 KM'
+        },
+        area: '85m - 370m',
+        name: 'Skyland',
+        location: 'Maslak, Istanbul',
+        locationAr: 'مسلك ، اسطنبول',
+        status: '50% Down Payment',
+        statusAr: '50٪ دفعة أولي',
+        installment: '36',
+        deliveryDate: 'Ready',
+        deliveryDateAr: 'جاهز',
+        downPayment: '50',
+        lat: 41.111698,
+        lng: 29.001263,
+        types: [{
+                type: '1+1',
+                minPrice: {
+                    TRY: 1420000
+                },
+                maxPrice: {
+                    TRY: 2478000
+                },
+                minArea: '85',
+                maxArea: '112',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355059/regent-react-real-estate-app/IST%202301/fp11.png'
+            },
+            {
+                type: '2+1',
+                minPrice: {
+                    TRY: 2680000
+                },
+                maxPrice: {
+                    TRY: 3979000
+                },
+                minArea: '135',
+                maxArea: '211',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355053/regent-react-real-estate-app/IST%202301/fp21.png'
+            },
+            {
+                type: '3+1',
+                minPrice: {
+                    TRY: 3627000
+                },
+                maxPrice: {
+                    TRY: 5073000
+                },
+                minArea: '209',
+                maxArea: '297',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355044/regent-react-real-estate-app/IST%202301/fp31.jpg'
+            },
+            {
+                type: '4+1',
+                minPrice: {
+                    TRY: 7399000
+                },
+                maxPrice: {
+                    TRY: 8170000
+                },
+                minArea: '318',
+                maxArea: '370',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355064/regent-react-real-estate-app/IST%202301/fp41.png'
+            }
+        ],
+        images: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355058/regent-react-real-estate-app/IST%202301/e1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355075/regent-react-real-estate-app/IST%202301/e2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355076/regent-react-real-estate-app/IST%202301/e3.jpg'
+        ],
+        interior: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355045/regent-react-real-estate-app/IST%202301/i1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355046/regent-react-real-estate-app/IST%202301/i2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560355046/regent-react-real-estate-app/IST%202301/i3.jpg'
+        ]
+    },
+    {
+        id: '2302',
+        description: "We present to you our new luxurious project which is located in one of istanbul's most active and vibrate location which is büyükçekmece. This amazing project is located directly by the sea. Few steps and you will be on the shore, with an incredible moder architecture. This project has one of the best views Istanbul has to offer. The location of this project has made it one of the best in Istanbul. A combination between peace of mind, incredible view and modern architecture",
+        descriptionAr: 'نقدم لكم مشروعنا الجديد الراقي كيان 107 الذي يقع بأكثر مناطق إسطنبول حيوية وحداثة وهي بيوكشكمجة، بما أنك بموقع يُمكنك من لمس البحر بمجرد مد يدك، فقد دفع المصممين لعمل تصميم معماري يليق بذلك الموقع والمفهوم. التحديات التي تفرضها بنية الأرض وتضاريسها الصعبة جعل المصممين يستفيدوا منها من حيث تحويلها الي قيمة إضافية لها وجعلها تنحدر كلما اقتربنا من مستوى سطح البحر كما وفَّرنا مساحات مفتوحة كبيرة قادرة على إثبات إطلالة البحر الخلابة في أكبر نسبةٍ من المشروع. مشروع   Cayan107 سيصبح مركزا حيويا هاما ونقطة التقاء للمنطقة مع منطقة معيشة على جانب البحر. بإختصار، هذا المشروع جمع بين هدوء و سكون الساحل و التصميم المعماري الذي يعكس الروح الحديثة في قلب الطبيعة الهادئة.',
+        descriptionShortAr: 'يقع المشروع في مسلك ، في قلب مدينة اسطنبول حيث خيارات التسوق المتعددة و بالقرب من واحدة من اكبر الحدائق في اسطنبول',
+        descriptionShort: 'The project located in Maslak, located in the heart of the city with alot of shopping options and near one of the largest parks in the city.',
+        typesAll: '1+1, 2+1, 3+1، 4+1',
+        priceMin: {
+            TRY: 1828000
+        },
+        priceMax: {
+            TRY: 4000000
+        },
+        distances: {
+            taksim: '8.7 KM',
+            metro: '1.6 KM',
+            metrobus: '4.5 KM',
+            sultan: '8.7 KM',
+            ataturk: '24 KM',
+            newairport: '34 KM',
+            beach: '0 KM',
+            tem: '0.6 KM'
+        },
+        area: '98m - 234m',
+        name: 'Vadi Istanbul',
+        location: 'Maslak, Istanbul',
+        locationAr: 'مسلك ، اسطنبول',
+        status: '100% Cash',
+        statusAr: 'كاش %100',
+        installment: '0',
+        deliveryDate: 'Ready',
+        deliveryDateAr: 'جاهز',
+        downPayment: '100',
+        lat: 41.108010,
+        lng: 28.961636,
+        types: [{
+                type: '1+1',
+                minPrice: {
+                    TRY: 1828000
+                },
+                maxPrice: {
+                    TRY: 2000000
+                },
+                minArea: '98',
+                maxArea: '120',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357021/regent-react-real-estate-app/IST%202302/fp11.jpg'
+            },
+            {
+                type: '2+1',
+                minPrice: {
+                    TRY: 2643000
+                },
+                maxPrice: {
+                    TRY: 3000000
+                },
+                minArea: '151',
+                maxArea: '162',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357021/regent-react-real-estate-app/IST%202302/fp21.jpg'
+            },
+            {
+                type: '3+1',
+                minPrice: {
+                    TRY: 3189000
+                },
+                maxPrice: {
+                    TRY: 3500000
+                },
+                minArea: '172',
+                maxArea: '220',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357021/regent-react-real-estate-app/IST%202302/fp31.jpg'
+            },
+            {
+                type: '4+1',
+                minPrice: {
+                    TRY: 3882000
+                },
+                maxPrice: {
+                    TRY: 4000000
+                },
+                minArea: '211',
+                maxArea: '233',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357041/regent-react-real-estate-app/IST%202302/fp41.jpg'
+            }
+        ],
+        images: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357048/regent-react-real-estate-app/IST%202302/e1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357040/regent-react-real-estate-app/IST%202302/e2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357048/regent-react-real-estate-app/IST%202302/e3.jpg'
+        ],
+        interior: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357034/regent-react-real-estate-app/IST%202302/i1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357041/regent-react-real-estate-app/IST%202302/i2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560357042/regent-react-real-estate-app/IST%202302/i3.jpg'
+        ]
+    },
+    {
         id: '2303',
         description: "We present to you our new luxurious project which is located in one of istanbul's most active and vibrate location which is büyükçekmece. This amazing project is located directly by the sea. Few steps and you will be on the shore, with an incredible moder architecture. This project has one of the best views Istanbul has to offer. The location of this project has made it one of the best in Istanbul. A combination between peace of mind, incredible view and modern architecture",
         descriptionAr: 'نقدم لكم مشروعنا الجديد الراقي كيان 107 الذي يقع بأكثر مناطق إسطنبول حيوية وحداثة وهي بيوكشكمجة، بما أنك بموقع يُمكنك من لمس البحر بمجرد مد يدك، فقد دفع المصممين لعمل تصميم معماري يليق بذلك الموقع والمفهوم. التحديات التي تفرضها بنية الأرض وتضاريسها الصعبة جعل المصممين يستفيدوا منها من حيث تحويلها الي قيمة إضافية لها وجعلها تنحدر كلما اقتربنا من مستوى سطح البحر كما وفَّرنا مساحات مفتوحة كبيرة قادرة على إثبات إطلالة البحر الخلابة في أكبر نسبةٍ من المشروع. مشروع   Cayan107 سيصبح مركزا حيويا هاما ونقطة التقاء للمنطقة مع منطقة معيشة على جانب البحر. بإختصار، هذا المشروع جمع بين هدوء و سكون الساحل و التصميم المعماري الذي يعكس الروح الحديثة في قلب الطبيعة الهادئة.',
@@ -3748,6 +3938,101 @@ const rawProjects = [{
             'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553945421/regent-react-real-estate-app/IST%202102/i1.jpg',
             'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553945406/regent-react-real-estate-app/IST%202102/i2.jpg',
             'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1553945412/regent-react-real-estate-app/IST%202102/i3.jpg'
+        ]
+    },
+    {
+        id: '2401',
+        description: "We present to you our new luxurious project which is located in one of istanbul's most active and vibrate location which is büyükçekmece. This amazing project is located directly by the sea. Few steps and you will be on the shore, with an incredible moder architecture. This project has one of the best views Istanbul has to offer. The location of this project has made it one of the best in Istanbul. A combination between peace of mind, incredible view and modern architecture",
+        descriptionAr: 'نقدم لكم مشروعنا الجديد الراقي كيان 107 الذي يقع بأكثر مناطق إسطنبول حيوية وحداثة وهي بيوكشكمجة، بما أنك بموقع يُمكنك من لمس البحر بمجرد مد يدك، فقد دفع المصممين لعمل تصميم معماري يليق بذلك الموقع والمفهوم. التحديات التي تفرضها بنية الأرض وتضاريسها الصعبة جعل المصممين يستفيدوا منها من حيث تحويلها الي قيمة إضافية لها وجعلها تنحدر كلما اقتربنا من مستوى سطح البحر كما وفَّرنا مساحات مفتوحة كبيرة قادرة على إثبات إطلالة البحر الخلابة في أكبر نسبةٍ من المشروع. مشروع   Cayan107 سيصبح مركزا حيويا هاما ونقطة التقاء للمنطقة مع منطقة معيشة على جانب البحر. بإختصار، هذا المشروع جمع بين هدوء و سكون الساحل و التصميم المعماري الذي يعكس الروح الحديثة في قلب الطبيعة الهادئة.',
+        descriptionShortAr: 'يقع المشروع في زكيركوي ، حيث الطبيعة الخلابة عنوان الحياة و رائحة الغابات المحيطة',
+        descriptionShort: 'The project is located in Zekeriyaköy, surrounded by the green nature and the amazing smell of forests.',
+        typesAll: '2+1, 3+1, 4+1, 5+1',
+        priceMin: {
+            TRY: 1023000
+        },
+        priceMax: {
+            TRY: 2580000
+        },
+        distances: {
+            taksim: '8.7 KM',
+            metro: '1.6 KM',
+            metrobus: '15 KM',
+            sultan: '8.7 KM',
+            ataturk: '24 KM',
+            newairport: '34 KM',
+            beach: '0 KM',
+            tem: '11 KM'
+        },
+        area: '148m - 300m',
+        name: 'Fema Garden',
+        location: 'Zekeriyaköy, Istanbul',
+        locationAr: 'زكيركوي ، اسطنبول',
+        status: '35% Down Payment',
+        statusAr: '35٪ دفعة أولي',
+        installment: '24',
+        deliveryDate: '2019',
+        deliveryDateAr: '2019',
+        downPayment: '35',
+        lat: 41.195471,
+        lng: 29.013133,
+        types: [{
+                type: '2+1',
+                minPrice: {
+                    TRY: 1023000
+                },
+                maxPrice: {
+                    TRY: 1500000
+                },
+                minArea: '148',
+                maxArea: '170',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359062/regent-react-real-estate-app/IST%202401/21.png'
+            },
+            {
+                type: '3+1',
+                minPrice: {
+                    TRY: 1174000
+                },
+                maxPrice: {
+                    TRY: 1800000
+                },
+                minArea: '212',
+                maxArea: '250',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359063/regent-react-real-estate-app/IST%202401/31.png'
+            },
+            {
+                type: '4+1',
+                minPrice: {
+                    TRY: 1841000
+                },
+                maxPrice: {
+                    TRY: 2000000
+                },
+                minArea: '271',
+                maxArea: '285',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359042/regent-react-real-estate-app/IST%202401/41.png'
+            },
+            {
+                type: '5+1',
+                minPrice: {
+                    TRY: 2536000
+                },
+                maxPrice: {
+                    TRY: 2580000
+                },
+                minArea: '293',
+                maxArea: '300',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359052/regent-react-real-estate-app/IST%202401/51.png'
+            }
+        ],
+        images: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359043/regent-react-real-estate-app/IST%202401/e1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359066/regent-react-real-estate-app/IST%202401/e2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359053/regent-react-real-estate-app/IST%202401/e3.jpg'
+        ],
+        interior: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359056/regent-react-real-estate-app/IST%202401/i1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359054/regent-react-real-estate-app/IST%202401/i2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1560359037/regent-react-real-estate-app/IST%202401/i3.jpg'
         ]
     },
     {
