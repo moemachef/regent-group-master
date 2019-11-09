@@ -110,7 +110,6 @@
   font-size: 1.1em;
 }
 .navbar-fixed .normal-nav .language {
-  width: 25%;
   position: absolute;
   top: 0;
   right: 0;
@@ -196,7 +195,7 @@
     width: 25px;
     height: 18px;
     right: 20px;
-    top: 20px;
+    top: 80px;
     color: #fff;
     display: block;
     opacity: 1;

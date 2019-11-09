@@ -155,7 +155,7 @@ class Navbar extends Component {
                   </NavLink>
                 </li>
               </ul>
-              <ul className="right hide-on-med-and-down language">
+              <ul className="right language">
                 <li className="dropdown-button right">
                   <a
                     onClick={switchLanguage.bind(this, 'en')}
