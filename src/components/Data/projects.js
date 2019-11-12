@@ -740,6 +740,91 @@ const rawProjects = [{
         ]
     },
     {
+        id: '1012',
+        description: 'Apartments for sale with an amazing architecture design with installments next to akbati mall in Bahçeşehir, Istanbul. also near the new metro station which will be finished in 2018 near Bahçeşehir lake. This project is built on an area of 75,000 and consists of 5 main buildings that has 459 housing units and shops plus many social and entirtainment places allows you a luxurious life style with an amazing view. The apartments has 1+1, 2+1 and 3+1 with an area of 65 m to 176 m. This project will be finished in 2019 in Bahçeşehir, Istanbul available with installments',
+        descriptionAr: '',
+        descriptionShort: 'The project located 600m from the metro, 34km from Taksim, 15km from Avcilar coast and 25km from the new Airport.',
+        descriptionShortAr: 'يقع المشروع 600 متر من المترو ، 34 متر من تقسيم ، 15 كم من ساحل افجيلار و 25 كم من المطار الجديد',
+        typesAll: '2+1, 3+1, 4+1',
+        priceMin: {
+            TRY: 615000
+        },
+        priceMax: {
+            TRY: 900000
+        },
+        distances: {
+            taksim: '24 KM',
+            metro: '600 M',
+            metrobus: '8 KM',
+            sultan: '23 KM',
+            ataturk: '10 KM',
+            newairport: '30 KM',
+            beach: '3 KM',
+            tem: '1.4 KM'
+        },
+        area: '135m - 200m',
+        name: 'Banu Evleri',
+        location: 'Bahçeşehir, Istanbul',
+        locationAr: ' بهشاشهير ، اسطنبول',
+        status: '35% Down Payment',
+        statusAr: '35٪ دفعة أولي',
+        installment: '36',
+        deliveryDate: '2021',
+        deliveryDateAr: '2021',
+        downPayment: '35',
+        lat: 41.066241,
+        lng: 28.684679,
+        types: [{
+                type: '2+1',
+                minPrice: {
+                    TRY: 615000
+                },
+                maxPrice: {
+                    TRY: 720000
+                },
+                minArea: '135',
+                maxArea: '160',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1573561870/regent-react-real-estate-app/IST%201012/fp21.png'
+            },
+            {
+                type: '3+1',
+                minPrice: {
+                    TRY: 745000
+                },
+                maxPrice: {
+                    TRY: 800000
+                },
+                minArea: '174',
+                maxArea: '180',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1573561872/regent-react-real-estate-app/IST%201012/fp31.png'
+            },
+            {
+                type: '4+1',
+                minPrice: {
+                    TRY: 825000
+                },
+                maxPrice: {
+                    TRY: 900000
+                },
+                minArea: '189',
+                maxArea: '200',
+                plan: 'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1573561871/regent-react-real-estate-app/IST%201012/fp41.png'
+            }
+            
+        ],
+        images: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1573561885/regent-react-real-estate-app/IST%201012/e1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1573561888/regent-react-real-estate-app/IST%201012/e2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1573561867/regent-react-real-estate-app/IST%201012/e3.jpg'
+
+        ],
+        interior: [
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1573561881/regent-react-real-estate-app/IST%201012/i1.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1573561878/regent-react-real-estate-app/IST%201012/i2.jpg',
+            'https://res.cloudinary.com/dgfb9ldfx/image/upload/v1573561890/regent-react-real-estate-app/IST%201012/i3.jpg'
+        ]
+    },
+    {
         id: '1101',
         description: '',
         descriptionAr: '',
